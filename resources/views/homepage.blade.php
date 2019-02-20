@@ -8,28 +8,53 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/homeCSS.css')}}">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' 
+          integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <title>Suizen Noodle Bar</title>
 </head>
 <body>
 @include('include.navbar')
 <div id="Gallery">
-    <div class="text-center galleryTitle">Gallery 图片</div>
+    <div class="text-center galleryTitle">Our Food 推荐餐</div>
     <hr class="lineThicknessForGallery">
       <div class="row">
         <div class="col-lg-4 col-sm-4 col-md-4">
-            <h5 class="text-center">Braised Fish Tofu Rice 斑斓豆腐鱼饭</p>
-            <h6 class="text-center">£6.50</p>
             <img class="img-responsive center imageFit" src="{{URL('/images/Fish_Tofu.png')}}" >
+            <h5 class="text-center textBlackFontForGallery">Braised Fish Tofu Rice 斑斓豆腐鱼饭</h5>
+            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
             <p></p>
         </div>
         <div class="col-lg-4 col-sm-4 col-md-4">
-            <img class="img-responsive imageFit" src="{{URL('/images/Fukien_Fried_Rice.png')}}">
+            <img class="img-responsive imageFit" src="{{URL('/images/Traditional_Cantonese_Beef_Brisket.png')}}">
+            <h5 class="text-center textBlackFontForGallery">Traditional Cantonese Beef Brisket 广式牛腩饭</h5>
+            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
         </div>
         <div class='col-lg-4 col-sm-4 col-md-4'>
-            <img class='img-responsive imageFit' src="{{URL('/images/Five_Spices_Pork_Ear.png')}}">
+            <img class='img-responsive imageFit' src="{{URL('/images/Cumin_Chili_Beef.png')}}">
+            <h5 class="text-center textBlackFontForGallery">Cumin Chili Beef 孜然牛肉饭</h5>
+            <h6 class="text-center textBlackFontForGallery">£6.50
+<i style='font-size:24px' class='fas'>&#xf164;</i></h6>
+        </div>
+    </div>
+     <div class="row secondGallery">
+        <div class="col-lg-4 col-sm-4 col-md-4">
+            <img class="img-responsive center imageFit" src="{{URL('/images/FUKIEN_FRICE_RICE.png')}}" >
+            <h5 class="text-center textBlackFontForGallery">Fukien Fried Rice 福建饭</h5>
+            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-md-4">
+            <img class="img-responsive imageFit" src="{{URL('/images/Roast_Duck_Rice.png')}}">
+            <h5 class="text-center textBlackFontForGallery">Roast Duck BBQ Rice 烧鸭饭（没骨）</h5>
+            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+        </div>
+        <div class='col-lg-4 col-sm-4 col-md-4'>
+            <img class='img-responsive soupImageFit' src="{{URL('/images/Char_Siu_Soup_Thin_Rice_Noodle.png')}}">
+            <h5 class="text-center textBlackFontForGallery">Char Siu Thin Noodle Soup 叉烧细面汤</h5>
+            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
         </div>
     </div>
 </div>
+    <hr class="lineThicknessForGallery">
 <div id="contactDetail">
     <div class="row backgroundRed">
         <div class="col-sm-4 col-md-4 col-lg-4">
@@ -54,6 +79,12 @@
             </div>
         </div>
     </div>
+        <div class="text-center deliveryInfo">
+                <p>We also delivery to university accomodations and libaries, however you may need to pick it up from the outside of your building if it is possible as driver will not able to get into the building</p>
+                <p>Aplogoise for any inconvenice.</p>
+                <p>我们也送到大学宿舍或者图书馆，不过你可能需要出来取餐哦，因为司机可能进不去.</p>
+                <p>给你带来不便之处，敬请原谅.</p>
+        </div>
 </div>
 </body>
 </html>
