@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 21, 2019 at 10:55 PM
+-- Generation Time: Feb 23, 2019 at 12:33 AM
 -- Server version: 5.7.14
 -- PHP Version: 7.1.10
 
@@ -45,7 +45,14 @@ INSERT INTO `head_dishes` (`id`, `Dish_Name`, `HelpText`, `created_at`, `updated
 (4, 'KING PRAWN DISHES 大蝦類 ', NULL, NULL, NULL),
 (5, 'BEEF DISHES 牛類 ', NULL, NULL, NULL),
 (6, 'CHICKEN DISHES 雞類', NULL, NULL, NULL),
-(7, 'FRIED RICE DISHES 炒飯類 ', NULL, NULL, NULL);
+(7, 'FRIED RICE DISHES 炒飯類 ', NULL, NULL, NULL),
+(8, 'CHOP SUEY DISHES 炒蔬菜 ', NULL, NULL, NULL),
+(9, 'Spare Ribs 排骨类', NULL, NULL, NULL),
+(10, 'Pork 叉烧', NULL, NULL, NULL),
+(11, 'CURRY DISHES 咖喱類 ', NULL, NULL, NULL),
+(12, 'EGG FOO YUNG DISHES 芙蓉類 ', NULL, NULL, NULL),
+(13, 'OMELETTE DISHES 煎蛋類', NULL, NULL, NULL),
+(14, 'EXTRA PORTIONS ', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -129,7 +136,56 @@ INSERT INTO `menus` (`id`, `OrderNumber`, `FoodName`, `Price`, `HeadDishes_Id`, 
 (56, '51', 'Yung Chow Fried Rice 扬州炒饭 ', '6', 7, NULL, 0, 0, NULL, NULL),
 (57, '52', 'Singapore Fried Rice 星洲炒饭 ', '6', 7, '(A Mixture of Chicken, Prawn and Char Siu Cooked in Red Pepper Fried with Hot Chilli Oil DRY) ', 2, 0, NULL, NULL),
 (58, '53', 'Char Siu Fried Rice 叉烧炒饭 ', '5', 7, NULL, 0, 0, NULL, NULL),
-(59, '54', 'Mushroom Fried Rice 蘑菇炒饭 ', '5', 7, NULL, 0, 0, NULL, NULL);
+(59, '54', 'Mushroom Fried Rice 蘑菇炒饭 ', '5', 7, NULL, 0, 0, NULL, NULL),
+(60, '55', 'Special Chop Suey 招牌蔬菜小炒 ', '6', 8, NULL, 0, 0, NULL, NULL),
+(61, '56', 'King Prawn Chop Suey 大虾炒蔬菜', '6', 8, NULL, 0, 0, NULL, NULL),
+(62, '57', 'Prawn/Shrimp Chop Suey 虾仁炒蔬菜 ', '5', 8, NULL, 0, 0, NULL, NULL),
+(63, '58', 'Chicken Chop Suey 鸡肉炒蔬菜 ', '5', 8, NULL, 0, 0, NULL, NULL),
+(64, '59', 'Beef Chop Suey 牛肉炒蔬菜', '5', 8, NULL, 0, 0, NULL, NULL),
+(65, '60', 'Char Siu Chop Suey 叉烧炒蔬菜', '5', 8, NULL, 0, 0, NULL, NULL),
+(66, '61', 'Mixed Vegetable Chop Suey 蔬菜小炒 ', '4', 8, NULL, 0, 0, NULL, NULL),
+(67, '62', 'Spare Ribs in Black Bean Sauce 士椒排骨', '6', 9, NULL, 0, 0, NULL, NULL),
+(68, '63', 'Spare Ribs Dry (with A Lemon Wedge)烤排骨配柠檬 ', '6', 9, NULL, 0, 0, NULL, NULL),
+(69, '64', 'Spare Ribs in Barbecue Sauce 烧汁BBQ排骨 ', '6', 9, NULL, 0, 0, NULL, NULL),
+(70, '65', 'Spare Ribs in Syrup 烤排骨配蜜糖 ', '6', 9, NULL, 0, 0, NULL, NULL),
+(71, '65a', 'Small Portion Of Spare Ribs ', '5', 9, NULL, 0, 0, NULL, NULL),
+(72, '80', 'Spare Ribs in Sweet & Sour Sauce 酸甜排骨 ', '6', 9, NULL, 0, 0, NULL, NULL),
+(73, '171', 'Chili & Salt Spare Ribs 椒盐排骨', '6', 9, '(Delicious Hot & Spicy)', 2, 0, NULL, NULL),
+(74, '172', 'Spare Ribs in Capital/Peking Sauce 京汁排骨 ', '6', 9, NULL, 0, 0, NULL, NULL),
+(75, '66', 'Char Siu with Bamboo shoots & Water Chestnuts ', '6', 10, NULL, 0, 0, NULL, NULL),
+(76, '67', 'Char Siu with Pineapple 叉烧炒菠萝 ', '6', 10, NULL, 0, 0, NULL, NULL),
+(77, '68', 'Char Siu in Black Bean Sauce 士椒叉烧炒青椒 ', '6', 10, NULL, 0, 0, NULL, NULL),
+(78, '69', 'Char Siu with Beansprouts 豆芽叉烧 ', '6', 10, NULL, 0, 0, NULL, NULL),
+(79, '69a', 'Char Siu with Mushrooms 叉烧炒蘑菇 ', '6', 10, NULL, 0, 0, NULL, NULL),
+(80, '70', 'Special Curry 招牌咖喱 ', '6', 11, 'A Mixture of Chicken, Beef, Duck, Char Siu (Pork), Prawn, Onion, Peas Cooked in  Delicious Curry Sauce  ', 0, 0, NULL, NULL),
+(81, '71', 'Duck Curry 咖喱鸭', '6', 11, NULL, 0, 0, NULL, NULL),
+(82, '72', 'King Prawn Curry 咖喱大虾 ', '6', 11, NULL, 0, 0, NULL, NULL),
+(83, '73', 'Prawn/Shrimp Curry 咖喱虾仁 ', '6', 11, NULL, 0, 0, NULL, NULL),
+(84, '74', 'Chicken Curry 咖喱鸡肉 ', '6', 11, NULL, 0, 0, NULL, NULL),
+(85, '75', 'Beef Curry 咖喱牛肉 ', '6', 11, NULL, 0, 0, NULL, NULL),
+(86, '76', 'Mutton Curry 咖喱羊肉 ', '6', 11, NULL, 0, 0, NULL, NULL),
+(87, '77', 'Char Siu Curry 咖喱叉烧 ', '6', 11, NULL, 0, 0, NULL, NULL),
+(88, '78', 'Mixed Vegetable Curry 咖喱蔬菜 ', '5', 11, NULL, 0, 0, NULL, NULL),
+(89, '79', 'Mushroom Curry 咖喱蘑菇 ', '5', 11, NULL, 0, 0, NULL, NULL),
+(90, '84', 'Special Foo Yung 招牌芙蓉 ', '6', 12, NULL, 0, 0, NULL, NULL),
+(91, '85', 'King Prawn Foo Yung 大虾芙蓉', '6', 12, NULL, 0, 0, NULL, NULL),
+(92, '86', 'Prawn/Shrimp Foo Yung 虾仁芙蓉 ', '6', 12, NULL, 0, 0, NULL, NULL),
+(93, '87', 'Chicken Foo Yung 鸡肉芙蓉 ', '6', 12, NULL, 0, 0, NULL, NULL),
+(94, '88', 'Mushroom Foo Yung 蘑菇芙蓉', '5', 12, NULL, 0, 0, NULL, NULL),
+(95, '89', 'Special Omelette  招牌煎蛋 ', '6', 13, NULL, 0, 0, NULL, NULL),
+(96, '91', 'King Prawn Omelette 大虾煎蛋 ', '6', 13, NULL, 0, 0, NULL, NULL),
+(97, '92', 'Prawn/Shrimp Omelette 虾仁煎蛋 ', '6', 13, NULL, 0, 0, NULL, NULL),
+(98, '93', 'Mushroom Omelette 蘑菇煎蛋 ', '5', 13, NULL, 0, 0, NULL, NULL),
+(99, '95', 'Char Siu Omelette 叉烧煎蛋 ', '6', 13, NULL, 0, 0, NULL, NULL),
+(100, '96', 'Chicken Omelette 鸡肉煎蛋', '6', 13, NULL, 0, 0, NULL, NULL),
+(101, '98', 'Chips 薯条 ', '1', 14, NULL, 0, 0, NULL, NULL),
+(102, '100', 'Egg Fried Rice 蛋炒饭', '2', 14, NULL, 0, 0, NULL, NULL),
+(103, '101', 'Plain Boiled Rice 白饭 ', '2', 14, NULL, 0, 0, NULL, NULL),
+(104, '102', 'Mushrooms 炒蘑菇 ', '2', 14, NULL, 0, 0, NULL, NULL),
+(105, '103', 'Bamboo Shoots & Water Chestnuts 炒竹笋马蹄 ', '2', 14, NULL, 0, 0, NULL, NULL),
+(106, '104', 'Beansprouts 炒芽菜', '2', 14, NULL, 0, 0, NULL, NULL),
+(107, '105', 'Onions 炒洋葱', '2', 14, NULL, 0, 0, NULL, NULL),
+(108, '106', 'Egg Noodle 炒面条', '3', 14, 'Thick Egg/ Thin Egg 粗/细蛋面', 0, 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -217,12 +273,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `head_dishes`
 --
 ALTER TABLE `head_dishes`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=60;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
 --
 -- AUTO_INCREMENT for table `migrations`
 --
