@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 23, 2019 at 12:33 AM
+-- Generation Time: Mar 01, 2019 at 10:31 PM
 -- Server version: 5.7.14
 -- PHP Version: 7.1.10
 
@@ -52,7 +52,13 @@ INSERT INTO `head_dishes` (`id`, `Dish_Name`, `HelpText`, `created_at`, `updated
 (11, 'CURRY DISHES 咖喱類 ', NULL, NULL, NULL),
 (12, 'EGG FOO YUNG DISHES 芙蓉類 ', NULL, NULL, NULL),
 (13, 'OMELETTE DISHES 煎蛋類', NULL, NULL, NULL),
-(14, 'EXTRA PORTIONS ', NULL, NULL, NULL);
+(14, 'EXTRA PORTIONS ', NULL, NULL, NULL),
+(15, 'SATAY DISHES 沙爹類 ', NULL, NULL, NULL),
+(16, 'KUNG PO DISHES 宮保類(英式) ', 'Hot & Sweet Sauce Mixed with Cashewnuts, Onions, Green Peppers and Pineapples ', NULL, NULL),
+(17, 'SWEET & SOUR 酸甜類 (Cantonese Style) ', 'Crispy Coated Pieces, Cooked in Sweet & Sour Sauce with Green Peppers, Onions and Pineapple', NULL, NULL),
+(18, 'SWEET & SOUR 酸甜類 (Sauce are in separated container)', NULL, NULL, NULL),
+(19, 'CAPITAL SAUCE DISHES 京汁類 ', 'Rich, Fruity, Sweet & Spicy Sauce', NULL, NULL),
+(20, 'STARTERS  小菜', 'SMALL £3.50  LARGE £4.30', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -185,7 +191,73 @@ INSERT INTO `menus` (`id`, `OrderNumber`, `FoodName`, `Price`, `HeadDishes_Id`, 
 (105, '103', 'Bamboo Shoots & Water Chestnuts 炒竹笋马蹄 ', '2', 14, NULL, 0, 0, NULL, NULL),
 (106, '104', 'Beansprouts 炒芽菜', '2', 14, NULL, 0, 0, NULL, NULL),
 (107, '105', 'Onions 炒洋葱', '2', 14, NULL, 0, 0, NULL, NULL),
-(108, '106', 'Egg Noodle 炒面条', '3', 14, 'Thick Egg/ Thin Egg 粗/细蛋面', 0, 0, NULL, NULL);
+(108, '106', 'Egg Noodle 炒面条', '3', 14, 'Thick Egg/ Thin Egg 粗/细蛋面', 0, 0, NULL, NULL),
+(109, '107', 'Prawn Cracker 虾片 ', '1', 14, NULL, 0, 0, NULL, NULL),
+(110, '108', 'Sauces ', '1', 14, '(Sweet & Sour/ Sweet & Chilli/ Curry/BBQ)', 0, 0, NULL, NULL),
+(111, '109', 'Sauces', '2', 14, '(Satay/ Black Bean/ Szechuan/ Plum/ Lemon)', 0, 0, NULL, NULL),
+(112, '110', 'Cashewnuts 腰果', '3', 14, NULL, 0, 0, NULL, NULL),
+(113, '111', 'Banana or Pineapple Fritters 炸香蕉/炸菠萝', '3', 14, NULL, 0, 0, NULL, NULL),
+(114, '112', 'Mixed Vegetables 蔬菜小炒', '3', 14, NULL, 0, 0, NULL, NULL),
+(115, '119', 'Roast Duck Chinese Style 中式烤鸭 ', '6', 3, 'Crispy Duck on a bed of Beansprouts with a Touch of Soy Sauce', 0, 0, NULL, NULL),
+(116, '120', 'Roast Duck In Plum Sauce 梅子烤鸭 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(117, '121', 'Roast Duck in Lemon Sauce 烤鸭配柠檬汁 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(118, '122', 'Roast Duck in Orange Sauce 烤鸭配橙汁 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(119, '123', 'Roast Duck Chinese Mushrooms 鸭肉炒冬菇 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(120, '124', 'Roast Duck with Straw Mushrooms 鸭肉炒草菇 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(121, '125', 'Roast Duck with Baby Corn 鸭肉炒朱笋 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(122, '126', 'Roast Duck with Pickled Ginger 子萝鸭肉 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(123, '127', 'Roast Duck with Oyster Sauce 广式(蚝油)鸭肉 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(124, '128', 'Roast Duck Spring Onions & Ginger 姜葱鸭肉 ', '6', 3, NULL, 0, 0, NULL, NULL),
+(125, '129', 'King Prawn with Chilli & Salt 椒盐大虾', '6', 4, NULL, 2, 0, NULL, NULL),
+(126, '130', 'King Prawn with Chinese Mushrooms 冬菇大虾 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(127, '131', 'King Prawn with Straw Mushrooms大虾炒草菇 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(128, '132', 'King Prawn with Baby Corn大虾炒朱笋 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(129, '133', 'King Prawn with Pickled Ginger子萝大虾 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(130, '134', 'Kprawn with Spring Onions & Ginger 姜葱大虾 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(131, '135', 'King Prawn with Oyster Sauce 广式(蚝油)大虾 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(132, '136', 'Hot & Sour King Prawn 酸辣大虾 ', '6', 4, NULL, 1, 0, NULL, NULL),
+(133, '137', 'Szechuan King Prawn 四川口味大虾 ', '6', 4, NULL, 0, 0, NULL, NULL),
+(134, '138', 'Beef with Chinese Mushrooms 牛肉炒冬菇 ', '6', 5, NULL, 0, 0, NULL, NULL),
+(135, '139', 'Beef with Straw Mushrooms 牛肉炒草菇 ', '6', 5, NULL, 0, 0, NULL, NULL),
+(136, '140', 'Beef with Baby Corn 牛肉炒朱笋 ', '6', 5, '', 0, 0, NULL, NULL),
+(137, '141', 'Beef with Pickled Ginger 子萝牛肉 ', '6', 5, NULL, 0, 0, NULL, NULL),
+(138, '142', 'Beef with Spring Onions & Ginger 姜葱牛肉 ', '6', 5, NULL, 0, 0, NULL, NULL),
+(139, '143', 'Beef with Oyster Sauce 广式(蚝油)牛肉 ', '6', 5, NULL, 0, 0, NULL, NULL),
+(140, '144', 'Hot & Sour Beef 酸辣牛肉 ', '6', 5, NULL, 0, 0, NULL, NULL),
+(141, '145', 'Szechuan Beef 四川牛肉 ', '6', 5, NULL, 2, 0, NULL, NULL),
+(142, '146', 'Roast Chicken Chinese Style 中式炸鸡 ', '6', 6, '(Crispy Chicken Breast on a Bed of Mixed Vegetables with Touch of Soy Sauce) ', 0, 0, NULL, NULL),
+(143, '147', 'Chicken with Chinese Mushrooms 鸡肉炒冬菇 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(144, '148', 'Chicken with Straw Mushrooms 鸡肉炒草菇 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(145, '149', 'Chicken with Baby Corn 鸡肉炒朱笋 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(146, '150', 'Chicken with Pickled Ginger 子萝鸡肉 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(147, '151', 'Chicken with Oyster Sauce 广式(蚝油)鸡肉 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(148, '152', 'Chicken with Spring Onions & Ginger 姜葱鸡 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(149, '153', 'Chicken with Lemon Sauce 柠檬炸鸡', '6', 6, NULL, 0, 0, NULL, NULL),
+(150, '154', 'Hot & Sour Chicken 酸辣鸡(脆) ', '6', 6, NULL, 1, 0, NULL, NULL),
+(151, '155', 'Szechuan Chicken 四川鸡 ', '6', 6, NULL, 0, 0, NULL, NULL),
+(152, '156', 'Special Satay (A mixture of meats) 招牌沙爹 ', '6', 15, NULL, 0, 0, NULL, NULL),
+(153, '157', 'Duck Satay 沙爹鸭 ', '6', 15, NULL, 0, 0, NULL, NULL),
+(154, '158', 'King Prawn Satay 沙爹大虾 ', '6', 15, NULL, 0, 0, NULL, NULL),
+(155, '159', 'Beef Satay 沙爹牛肉 ', '6', 15, NULL, 0, 0, NULL, NULL),
+(156, '160', 'Chicken Satay 沙爹鸡肉 ', '6', 15, NULL, 0, 0, NULL, NULL),
+(157, '161', 'Char Siu Satay 沙爹叉烧 ', '6', 15, NULL, 0, 0, NULL, NULL),
+(158, '162', 'Special Kung Po 招牌宫保 ', '6', 16, NULL, 1, 0, NULL, NULL),
+(159, '163', 'Kung Po Duck 宫保鸭 ', '6', 16, NULL, 1, 0, NULL, NULL),
+(160, '164', 'Kung Po King Prawn 宫保大虾 ', '6', 16, NULL, 1, 0, NULL, NULL),
+(161, '165', 'Kung Po Beef 宫保牛肉 ', '6', 16, NULL, 1, 0, NULL, NULL),
+(162, '166', 'Kung Po Chicken 宫保鸡丁 ', '6', 16, NULL, 1, 0, NULL, NULL),
+(163, '167', 'Kung Po Char Siu 宫保叉烧 ', '6', 16, NULL, 1, 0, NULL, NULL),
+(164, '168', 'Sweet & Sour King Prawn 酸甜大虾 ', '6', 17, NULL, 0, 0, NULL, NULL),
+(165, '169', 'Sweet & Sour Chicken 酸甜鸡(咕噜鸡) ', '6', 17, NULL, 0, 0, NULL, NULL),
+(166, '170', 'Sweet & Sour Pork 酸甜猪肉 ', '6', 17, NULL, 0, 0, NULL, NULL),
+(167, '81', 'Sweet & Sour King Prawn (Balls) 香脆大虾球配酸甜汁 ', '6', 18, 'Approx 10 King Prawn Balls ', 0, 0, NULL, NULL),
+(168, '81', 'Sweet & Sour King Prawn (Balls) 香脆大虾球配酸甜汁 ', '6', 18, 'Approx 10 King Prawn Balls ', 0, 0, NULL, NULL),
+(169, '82', 'Sweet & Sour Chicken (Balls) 香脆鸡球配酸甜汁 ', '6', 18, 'Approx 10 Chicken Balls', 0, 0, NULL, NULL),
+(170, '173', 'Beef with Capital Sauce 京汁牛肉 ', '6', 19, NULL, 1, 0, NULL, NULL),
+(171, '174', 'Duck in Capital Sauce 京汁鸭肉 ', '6', 19, NULL, 1, 0, NULL, NULL),
+(172, '175', 'Chicken in Capital Sauce 京汁鸡肉', '6', 19, NULL, 1, 0, NULL, NULL),
+(173, '176', 'Char Siu in Capital Sauce 京汁叉烧 ', '6', 19, NULL, 1, 0, NULL, NULL),
+(174, '177', 'King Prawn in Capital Sauce 京汁大虾 ', '6', 19, NULL, 1, 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -273,12 +345,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `head_dishes`
 --
 ALTER TABLE `head_dishes`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=175;
 --
 -- AUTO_INCREMENT for table `migrations`
 --
