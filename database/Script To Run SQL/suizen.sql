@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 01, 2019 at 10:31 PM
+-- Generation Time: Mar 02, 2019 at 12:11 AM
 -- Server version: 5.7.14
 -- PHP Version: 7.1.10
 
@@ -19,6 +19,45 @@ SET time_zone = "+00:00";
 --
 -- Database: `suizen`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `chef_specials`
+--
+
+CREATE TABLE `chef_specials` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `OrderNumber` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `FoodName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `HelpText` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Price` decimal(5,2) NOT NULL,
+  `Recommended` tinyint(1) NOT NULL,
+  `HeadDishes_Id` int(10) UNSIGNED DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `chef_specials`
+--
+
+INSERT INTO `chef_specials` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Price`, `Recommended`, `HeadDishes_Id`) VALUES
+(1, '105', 'Traditional Cantonese Beef Brisket 广式牛腩 ', NULL, '5.80', 1, 23),
+(2, '105.1', 'Beef Brisket Noodle Soup 牛腩汤面 ', NULL, '6.50', 1, 23),
+(3, '105.2', 'Beef Brisket Curry 咖喱牛腩 ', NULL, '5.80', 0, 23),
+(4, 'N/A', 'Salt & Pepper Beef 椒盐牛', NULL, '6.00', 0, 23),
+(5, '1161.5', 'Sea-Spiced Aubergines 鱼香茄子 ', NULL, '5.80', 0, 23),
+(6, '40a', 'Wat Tan Hor 滑蛋河 ', NULL, '6.50', 0, 23),
+(7, '40b', 'Fukien Fried Rice 福州炒饭 ', NULL, '6.50', 1, 23),
+(8, '41a', 'XO Seafood Udon/Fried Rice 海鲜炒乌冬/炒饭 ', 'Bit spicy mixed with fish cakes, prawns and crabmeat cooked with XO sauce. Very tasty!!!', '6.00', 1, 23),
+(9, '41e', 'Roast Duck Rice BBQ 烧鸭饭(中式烧汁)', 'Roast Duck Dip With BBQ sauce on top of the fried rice', '6.50', 1, 23),
+(10, '41f', 'Charsiu Rice BBQ 叉烧饭(中式烧汁) ', 'Char Siu Dip With BBQ sauce on top of the fried rice', '6.00', 0, 23),
+(11, '1172a', 'MaPo Tofu 麻婆豆腐 ', 'Tofu Mixed with little pieces of pork, then cooked with spicy sezchuan sauce.', '5.80', 1, 23),
+(12, '161h', 'Minced Pork with Green Bean 猪肉炒四季豆(辣)', 'Green beans cooked with minced pork, then mixed with a extremely spicy sauce. ', '5.80', 1, 23),
+(13, '1049ab', 'Sweet & Sour/Thai Style Fish 酸甜鱼', 'Battered cod fish cooked with Sweet&Sour/Thai Style', '6.50', 0, 23),
+(14, '1051', 'Chili & Salt Fish 椒盐鱼 ', NULL, '6.50', 0, 23),
+(15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered cod fish mixed with tofu, broccoli then cooked with Cantonese oyster sauce. Very sweet and tasty!!! ', '6.50', 1, 23),
+(16, '41g', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear/Belly Cooked with spicy sauce and then mixed with green pepper and onions. Very tasty if you eat pork!!!', '6.50', 1, 23),
+(17, '105.4', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.50', 0, 23);
 
 -- --------------------------------------------------------
 
@@ -58,7 +97,12 @@ INSERT INTO `head_dishes` (`id`, `Dish_Name`, `HelpText`, `created_at`, `updated
 (17, 'SWEET & SOUR 酸甜類 (Cantonese Style) ', 'Crispy Coated Pieces, Cooked in Sweet & Sour Sauce with Green Peppers, Onions and Pineapple', NULL, NULL),
 (18, 'SWEET & SOUR 酸甜類 (Sauce are in separated container)', NULL, NULL, NULL),
 (19, 'CAPITAL SAUCE DISHES 京汁類 ', 'Rich, Fruity, Sweet & Spicy Sauce', NULL, NULL),
-(20, 'STARTERS  小菜', 'SMALL £3.50  LARGE £4.30', NULL, NULL);
+(20, 'STARTERS  小菜', 'SMALL £3.50  LARGE £4.30', NULL, NULL),
+(21, 'Soups 湯類 ', 'In Small Container 小碗', NULL, NULL),
+(22, 'CHOW MEIN DISHES 炒面類', NULL, NULL, NULL),
+(23, 'CHEF SPECIAL 特别介绍 ', NULL, NULL, NULL),
+(24, 'Chinese Vegetables  各式菜类', 'Cooked in Garlic and Oyster Sauce 蒜蓉和蚝油做法', NULL, NULL),
+(25, 'Set Meal 套餐 ', NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -257,7 +301,24 @@ INSERT INTO `menus` (`id`, `OrderNumber`, `FoodName`, `Price`, `HeadDishes_Id`, 
 (171, '174', 'Duck in Capital Sauce 京汁鸭肉 ', '6', 19, NULL, 1, 0, NULL, NULL),
 (172, '175', 'Chicken in Capital Sauce 京汁鸡肉', '6', 19, NULL, 1, 0, NULL, NULL),
 (173, '176', 'Char Siu in Capital Sauce 京汁叉烧 ', '6', 19, NULL, 1, 0, NULL, NULL),
-(174, '177', 'King Prawn in Capital Sauce 京汁大虾 ', '6', 19, NULL, 1, 0, NULL, NULL);
+(174, '177', 'King Prawn in Capital Sauce 京汁大虾 ', '6', 19, NULL, 1, 0, NULL, NULL),
+(175, '34', 'Special Chow Mein (DRY) 广式招牌炒面(干炒) ', '6', 22, 'a Mixture of Meat & Vegetables Cooked with Noodles', 0, 0, NULL, NULL),
+(176, '34a', 'Special Chow Mein (SAUCE) 广式招牌炒面(有汁) ', '6', 22, 'I personally recommend the DRY special chowmein, it taste better.', 0, 0, NULL, NULL),
+(177, '35', 'Duck Chow Mein 广式鸭肉炒面 ', '6', 22, NULL, 0, 0, NULL, NULL),
+(178, '36', 'King Prawn Chow Mein 广式大虾炒面 ', '6', 22, NULL, 0, 0, NULL, NULL),
+(179, '37', 'Singapore Chow Mein 星洲炒面 ', '6', 22, 'Highly Recommended !!!', 1, 0, NULL, NULL),
+(180, '37a', 'Singapore Vermicelli Chow Mein 星洲炒米粉 ', '6', 22, 'Highly Recommended!!!', 1, 0, NULL, NULL),
+(181, '38', 'Beef Chow Mein 广式牛肉炒面 ', '6', 22, NULL, 0, 0, NULL, NULL),
+(182, '38a', 'Beef Dry HoFun Chow Mein 干炒牛河 ', '6', 22, NULL, 0, 0, NULL, NULL),
+(183, '39', 'Chicken Chow Mein 广式鸡肉炒面 ', '6', 22, NULL, 0, 0, NULL, NULL),
+(184, '1161a', 'Broccoli 西兰花', '6', 24, NULL, 0, 0, NULL, NULL),
+(185, '1161d', 'Pak Choi 小白菜 ', '6', 24, NULL, 0, 0, NULL, NULL),
+(186, '1161f', 'Choi Sum 菜心 ', '6', 24, NULL, 0, 0, NULL, NULL),
+(187, '1161g', 'Chinese Leaf 大白菜', '6', 24, NULL, 0, 0, NULL, NULL),
+(188, '161g', 'Kai-Lan 芥蓝', '7', 24, 'Please check with the staff first if this order is available. Thanks', 0, 0, NULL, NULL),
+(189, 'W9', 'Set Meal A 套餐A', '8', 25, '(Fried Tofu, Pak Choi, & Red-cooked pork with Rice) (炸豆腐+红烧肉+青菜+白饭)', 0, 0, NULL, NULL),
+(190, 'W10', 'Set Meal B 套餐B ', '8', 25, '(Beef Brisket, Pak Choi, & Fried Fish with Rice) (牛腩+炸鱼+青菜+白饭) ', 0, 0, NULL, NULL),
+(191, 'W11', 'Set Meal C 套餐C ', '8', 25, '(Roast Duck, Pak Choi, & Fried Fish with Rice) (中式汁鸭+炸鱼+青菜+白饭) ', 0, 0, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -279,7 +340,10 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (5, '2014_10_12_000000_create_users_table', 1),
 (6, '2014_10_12_100000_create_password_resets_table', 1),
 (7, '2019_02_20_223346_create_menus_table', 1),
-(8, '2019_02_20_223925_create_head_dishes_table', 1);
+(8, '2019_02_20_223925_create_head_dishes_table', 1),
+(9, '2019_03_01_223740_create_starters_table', 2),
+(10, '2019_03_01_225046_create_soups_table', 3),
+(11, '2019_03_01_232558_create_chef_specials_table', 4);
 
 -- --------------------------------------------------------
 
@@ -292,6 +356,77 @@ CREATE TABLE `password_resets` (
   `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `soups`
+--
+
+CREATE TABLE `soups` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `OrderNumber` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `FoodName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `HelpText` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Recommended` int(11) NOT NULL,
+  `HeadDishes_Id` int(10) UNSIGNED DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `soups`
+--
+
+INSERT INTO `soups` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Recommended`, `HeadDishes_Id`, `created_at`, `updated_at`) VALUES
+(1, '1040', 'Hot & Sour Soup 酸辣汤', NULL, 0, 21, NULL, NULL),
+(2, '1041', ' Seafood Soup/ Hot & Sour Seafood Soup 海鲜汤/海鲜酸辣汤 ', NULL, 0, NULL, NULL, NULL),
+(3, '1041a', 'Seaweed Egg Soup 紫菜汤', NULL, 1, 21, NULL, NULL),
+(4, '1042', 'Chicken & Sweetcorn Soup 鸡粒玉米汤 ', NULL, 1, 21, NULL, NULL),
+(5, '1042a', 'Crabmeat & Sweetcorn Soup 蟹肉玉米汤', NULL, 1, 21, NULL, NULL),
+(6, '1043', 'Wonton Soup 云吞汤 ', NULL, 0, 21, NULL, NULL),
+(7, '1043a', 'Tomato Egg Soup 番茄蛋汤 ', NULL, 0, 21, NULL, NULL),
+(8, '1044', 'Mixed Vegetables Soup 蔬菜汤 ', NULL, 0, 21, NULL, NULL),
+(9, '1045', 'Chicken & Mushroom Soup 鸡丝蘑菇汤 ', NULL, 0, 21, NULL, NULL),
+(10, '1046', 'Chicken & Noodle Soup 鸡丝面汤 ', NULL, 0, 21, NULL, NULL),
+(11, '1047', 'Sliced Duck Soup 鸭丝汤 ', NULL, 0, 21, NULL, NULL),
+(12, '1048', 'Hot & Sour Mixed Veg Soup 蔬菜酸辣汤 ', NULL, 0, 21, NULL, NULL),
+(13, '1041a', 'Tom Yum Soup 冬阴功汤', 'This soup is good for you if you got cold during the winter!', 0, 21, NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `starters`
+--
+
+CREATE TABLE `starters` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `OrderNumber` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `FoodName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `HelpText` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `Small` decimal(5,2) NOT NULL,
+  `Large` decimal(5,2) NOT NULL,
+  `Recommended` int(11) NOT NULL,
+  `HeadDishes_Id` int(10) UNSIGNED DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `starters`
+--
+
+INSERT INTO `starters` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Small`, `Large`, `Recommended`, `HeadDishes_Id`, `created_at`, `updated_at`) VALUES
+(1, '1010', 'Mini Spring Rolls with Vietnamese Sauce 酥炸蔬菜春卷 ', 'Mini Vegetables Spring Rolls Served with Garlic, Chilli & Lemon Sauce', '3.50', '4.30', 0, 20, NULL, NULL),
+(2, '1011', 'Crispy Won Ton with Sweet Chilli Sauce 酥炸馄饨 ', 'Minced Chicken & Prawn Wrapped in Crispy Water Pastry Served with Sweet Chilli Sauce', '3.50', '4.30', 1, 20, NULL, NULL),
+(3, '1012', 'Oriental King Prawn Rolls 酥炸大虾卷 ', 'Deep Fried Tail-On King Prawns, Wrapped in Authentic Oriental Pastry & Served with Sweet Chili Dip', '3.50', '4.30', 0, 20, NULL, NULL),
+(4, '1013', 'Butterfly King Prawns 酥炸凤尾虾', 'Deep Fried King Prawns in a Light Crispy Batter Served with Sweet Chili Sauce', '3.50', '4.30', 0, 20, NULL, NULL),
+(5, '1014', 'King Prawn Toast 酥炸下多士 ', 'King Prawn Paste Generously Spread on Toast, Topped with Sesame Seeds', '3.50', '4.30', 1, 20, NULL, NULL),
+(6, '1015', 'Breaded Calamari Rings 酥炸鱿鱼圈 ', 'Deep Fried Calamari in a Light Crispy Batter Served with Sweet Chilli Sauce', '3.50', '4.30', 0, 20, NULL, NULL),
+(7, '1017', 'Onion Rings 脆香洋葱圈 ', 'Deep Fried in a Light Crispy Batter Served with a Dip', '3.50', '4.30', 0, 20, NULL, NULL),
+(8, '1018', 'Chicken Wings 炸鸡翅  ', '4-5 On Small Portions and 8-9 On Large Portions. Sauces: Chili & Salt / BBQ / Dry / Other. I recommend Chili & Salt - spicy.', '3.50', '4.30', 1, 20, NULL, NULL),
+(9, '1020', 'Chilli & Salt Spicy Chips 椒盐薯条 ', 'Chips Spiced with Onions, Green Peppers & Fresh Chili', '3.50', '4.30', 0, 20, NULL, NULL),
+(10, '1021', 'Salt & Peppers Squids 椒盐鱿鱼', 'Battered Squids Cooked with chili and salt.\r\nI highly recommend you go for the large portion.', '3.80', '5.50', 1, 20, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -314,6 +449,12 @@ CREATE TABLE `users` (
 --
 
 --
+-- Indexes for table `chef_specials`
+--
+ALTER TABLE `chef_specials`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `head_dishes`
 --
 ALTER TABLE `head_dishes`
@@ -332,6 +473,18 @@ ALTER TABLE `migrations`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `soups`
+--
+ALTER TABLE `soups`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `starters`
+--
+ALTER TABLE `starters`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -342,20 +495,35 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT for table `chef_specials`
+--
+ALTER TABLE `chef_specials`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+--
 -- AUTO_INCREMENT for table `head_dishes`
 --
 ALTER TABLE `head_dishes`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 --
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=175;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=192;
 --
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+--
+-- AUTO_INCREMENT for table `soups`
+--
+ALTER TABLE `soups`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+--
+-- AUTO_INCREMENT for table `starters`
+--
+ALTER TABLE `starters`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `users`
 --
