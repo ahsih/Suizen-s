@@ -10,4 +10,19 @@ class HeadDishes extends Model
     {
         return $this->hasMany(Menu::class);
     }
+    
+    public function Starters()
+    {
+        return $this->hasMany(Starters::class);
+    }
+    
+    public function Soups()
+    {
+        return $this->hasMany(Soups::class);
+    }
+    
+    public function ChefSpecial()
+    {
+        return $this->hasMany(ChefSpecial::class);
+    }
 }
