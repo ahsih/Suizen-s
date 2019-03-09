@@ -14,3 +14,4 @@
 // HomePage
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
+Route::get('/menu','MenuController@index');

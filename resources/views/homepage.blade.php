@@ -1,15 +1,21 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
 <head>
-    <meta charset="utf-8">
-    <meta name="Suizen's Noodle Bar 广东楼伯明翰大学"
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="Suizen's Noodle Bar 广东楼伯明翰大学"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="stylesheet" href="{{asset('css/homeCSS.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/navbar.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/homeCSS.css')}}"/>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' 
           integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="{{asset('js/homepageJavaScript.js')}}"></script>
     <title>Suizen Noodle Bar</title>
 </head>
 <body>
@@ -17,12 +23,15 @@
 <div id="Gallery">
     <div class="text-center galleryTitle">Our Food 推荐餐</div>
     <hr class="lineThicknessForGallery">
-      <div class="row">
+    <div id="FoodSlideShow" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+         <div class="row">
         <div class="col-lg-4 col-sm-4 col-md-4">
             <img class="img-responsive center imageFit" src="{{URL('/images/Fish_Tofu.png')}}" >
             <h5 class="text-center textBlackFontForGallery">Braised Fish Tofu Rice 斑斓豆腐鱼饭</h5>
             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
-            <p></p>
         </div>
         <div class="col-lg-4 col-sm-4 col-md-4">
             <img class="img-responsive imageFit" src="{{URL('/images/Traditional_Cantonese_Beef_Brisket.png')}}">
@@ -36,7 +45,7 @@
 <i style='font-size:24px' class='fas'>&#xf164;</i></h6>
         </div>
     </div>
-     <div class="row secondGallery">
+          <div class="row">
         <div class="col-lg-4 col-sm-4 col-md-4">
             <img class="img-responsive center imageFit" src="{{URL('/images/FUKIEN_FRICE_RICE.png')}}" >
             <h5 class="text-center textBlackFontForGallery">Fukien Fried Rice 福建饭</h5>
@@ -53,6 +62,21 @@
             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
         </div>
     </div>
+      </div>
+      <div class="item">
+          <p>test</p>
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#FoodSlideShow" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#FoodSlideShow" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
     <hr class="lineThicknessForGallery">
 <div id="contactDetail">
@@ -79,12 +103,14 @@
             </div>
         </div>
     </div>
-        <div class="text-center deliveryInfo">
+    <div class="row">
+        <div class="text-center deliveryInfo col">
                 <p>We also delivery to university accomodations and libaries, however you may need to pick it up from the outside of your building if it is possible as driver will not able to get into the building</p>
                 <p>Aplogoise for any inconvenice.</p>
                 <p>我们也送到大学宿舍或者图书馆，不过你可能需要出来取餐哦，因为司机可能进不去.</p>
                 <p>给你带来不便之处，敬请原谅.</p>
         </div>
+    </div>
 </div>
 </body>
 </html>

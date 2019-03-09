@@ -7,14 +7,14 @@
  */
 ?>
 <div id="TitleHeading">
-    <div class="titleMargin row">
+    <div class="row">
         <div class="col-8">
             <h2><a id="titleNavBar" href="{{ url('/home') }}">Suizen Noodle Bar 广东楼</a></h2>
         </div>
         <div class="col">
             <nav class="float-right navBarMarginRight">
                 <p class="paragraphInline"><a class="subNavBarParagraph" href="{{ url('/home') }}">Home</a></p>
-                <p class="paragraphInline">Menu</p>
+                <p class="paragraphInline"><a class="subNavBarParagraph" href="{{ url('/menu') }}">Menu</a></p>
                 <p class="paragraphInline">Contact Us</p>
             </nav>
         </div>

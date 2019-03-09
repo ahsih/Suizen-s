@@ -1,0 +1,32 @@
+#TitleHeading{
+    padding-top:10px;
+    background: #f23a55;
+}
+
+#titleNavBar
+{
+    font-size: 25px;
+    color: whitesmoke;
+   text-decoration: none;
+}
+
+.navBarMarginRight {
+    padding-top:  4px;
+    margin-right: 30%;
+}
+
+.paragraphInline {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.subNavBarParagraph
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.subNavBarParagraph:hover
+{
+    text-decoration: none;
+}
