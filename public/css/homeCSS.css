@@ -46,7 +46,6 @@
     margin-right: auto;
     width:50%;
     height:50%;
-    background-color: #ffffff;
 }
 
 .soupImageFit
@@ -56,11 +55,10 @@
     margin-right: auto;
     width:50%;
     height:50%;
-    background-color: #ffffff;
 }
 
 #Gallery {
-    background-color: #F5F5F5;
+    background-color: #f2c776;
 }
 
 .galleryTitle {
