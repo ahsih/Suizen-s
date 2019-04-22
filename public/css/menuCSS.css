@@ -1,0 +1,21 @@
+.panel-chefSpecial-style
+{
+  border-color:transparent;
+}
+
+.panel-chefSpecial-style > .panel-heading
+{
+    background: #f2c776;
+    color: whitesmoke;
+    border-color: black;
+}
+
+.SubMenuTitle
+{
+  color : black;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}

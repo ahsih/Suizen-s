@@ -15,7 +15,7 @@
             <nav class="float-right navBarMarginRight">
                 <p class="paragraphInline"><a class="subNavBarParagraph" href="{{ url('/home') }}">Home</a></p>
                 <p class="paragraphInline"><a class="subNavBarParagraph" href="{{ url('/menu') }}">Menu</a></p>
-                <p class="paragraphInline">Contact Us</p>
+                <p class="paragraphInline"><a class="subNavBarParagraph" href="{{ url('/menu') }}">Contact Us</a></p>
             </nav>
         </div>
     </div>

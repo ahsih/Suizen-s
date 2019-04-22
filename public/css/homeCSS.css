@@ -58,6 +58,8 @@
 }
 
 #Gallery {
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #f2c776;
 }
 
@@ -85,7 +87,7 @@
 .deliveryInfo
 {
     background: #f23a55;
-    font-size: 15px;
+    font-size: 18px;
     color: whitesmoke;
 }
 
