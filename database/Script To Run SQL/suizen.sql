@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 02, 2019 at 12:11 AM
+-- Generation Time: Apr 24, 2019 at 07:15 PM
 -- Server version: 5.7.14
 -- PHP Version: 7.1.10
 
@@ -48,15 +48,15 @@ INSERT INTO `chef_specials` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Price
 (5, '1161.5', 'Sea-Spiced Aubergines 鱼香茄子 ', NULL, '5.80', 0, 23),
 (6, '40a', 'Wat Tan Hor 滑蛋河 ', NULL, '6.50', 0, 23),
 (7, '40b', 'Fukien Fried Rice 福州炒饭 ', NULL, '6.50', 1, 23),
-(8, '41a', 'XO Seafood Udon/Fried Rice 海鲜炒乌冬/炒饭 ', 'Bit spicy mixed with fish cakes, prawns and crabmeat cooked with XO sauce. Very tasty!!!', '6.00', 1, 23),
-(9, '41e', 'Roast Duck Rice BBQ 烧鸭饭(中式烧汁)', 'Roast Duck Dip With BBQ sauce on top of the fried rice', '6.50', 1, 23),
-(10, '41f', 'Charsiu Rice BBQ 叉烧饭(中式烧汁) ', 'Char Siu Dip With BBQ sauce on top of the fried rice', '6.00', 0, 23),
-(11, '1172a', 'MaPo Tofu 麻婆豆腐 ', 'Tofu Mixed with little pieces of pork, then cooked with spicy sezchuan sauce.', '5.80', 1, 23),
-(12, '161h', 'Minced Pork with Green Bean 猪肉炒四季豆(辣)', 'Green beans cooked with minced pork, then mixed with a extremely spicy sauce. ', '5.80', 1, 23),
-(13, '1049ab', 'Sweet & Sour/Thai Style Fish 酸甜鱼', 'Battered cod fish cooked with Sweet&Sour/Thai Style', '6.50', 0, 23),
+(8, '41a', 'XO Seafood Udon/Fried Rice 海鲜炒乌冬/炒饭 ', 'Fish cakes, Prawns & Crabmeat Cooked With XO sauce. Very tasty and a little bit spicy!!!', '6.00', 1, 23),
+(9, '41e', 'Roast Duck Rice BBQ 烧鸭饭(中式烧汁)', 'Roast Duck Dip With BBQ Sauce On Top Of The Egg Fried Rice', '6.50', 1, 23),
+(10, '41f', 'Charsiu Rice BBQ 叉烧饭(中式烧汁) ', 'Char Siu Dip With BBQ Sauce On Top Of The Egg Fried Rice', '6.00', 0, 23),
+(11, '1172a', 'MaPo Tofu 麻婆豆腐 ', 'Tofu Mixed With Minced Pork, Then Cooked With Spicy Sezchuan Sauce.', '5.80', 1, 23),
+(12, '161h', 'Minced Pork with Green Bean 猪肉炒四季豆(辣)', 'Green Beans Cooked With Minced Pork, Then Mixed With A Delicious Spicy Sauce. ', '5.80', 1, 23),
+(13, '1049ab', 'Sweet & Sour/Thai Style Fish 酸甜鱼', 'Battered Cod Fish Cooked With Sweet&Sour/Thai Style', '6.50', 0, 23),
 (14, '1051', 'Chili & Salt Fish 椒盐鱼 ', NULL, '6.50', 0, 23),
-(15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered cod fish mixed with tofu, broccoli then cooked with Cantonese oyster sauce. Very sweet and tasty!!! ', '6.50', 1, 23),
-(16, '41g', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear/Belly Cooked with spicy sauce and then mixed with green pepper and onions. Very tasty if you eat pork!!!', '6.50', 1, 23),
+(15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered Cod Fish Mixed With Tofu, Broccoli Then Cooked With Cantonese Oyster Sauce. Very Sweet and tasty!!! ', '6.50', 1, 23),
+(16, '41g', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear Or Pork Belly Cooked With Spicy Sauce & Then Mixed With Green Pepper & Onions. Very tasty If You Eat Pork!!!', '6.50', 1, 23),
 (17, '105.4', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.50', 0, 23);
 
 -- --------------------------------------------------------
