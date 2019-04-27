@@ -1,9 +1,9 @@
-.panel-chefSpecial-style
+.panel-menu-style
 {
   border-color:transparent;
 }
 
-.panel-chefSpecial-style > .panel-heading
+.panel-menu-style > .panel-heading
 {
     background: #f2c776;
     color: whitesmoke;
@@ -15,7 +15,67 @@
   color : black;
   margin-top: 5px;
   margin-bottom: 0px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.SubMenuTitleHelpText
+{
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.foodNameLabel
+{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.priceLabel
+{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.hintNameLabel
+{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 10px;
+  margin-left:5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.pepperLabel
+{
+  color:red;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.seperateLine
+{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.clearFloat
+{
+  clear: both;
 }
