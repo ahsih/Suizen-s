@@ -1,3 +1,35 @@
+
+.InfoTitle
+{
+  color : black;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.InfoSubTitle
+{
+  color : black;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.panel-info-style
+{
+  border-color: transparent;
+}
+
+.panel-info-style > .panel-heading
+{
+  background:#fcf6bd;
+  color:whitesmoke;
+}
+
 .panel-menu-style
 {
   border-color:transparent;
@@ -10,6 +42,12 @@
     border-color: black;
 }
 
+#vegetarianDish
+{
+  border-color: green;
+  border-width: 2px;
+}
+
 .SubMenuTitle
 {
   color : black;
@@ -20,9 +58,14 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.veganSymbol
+{
+  float:left;
+}
+
 .SubMenuTitleHelpText
 {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 0;
   margin-bottom: 0;
   color:black;
@@ -30,12 +73,22 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-.foodNameLabel
+.orderNumberLabel
 {
+  float:left;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.foodNameLabel
+{
   float: left;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
   margin-left: 5px;
   margin-bottom: 0px;
 }
@@ -78,4 +131,20 @@
 .clearFloat
 {
   clear: both;
+}
+
+#ExtraPortionDish
+{
+  border-color: goldenrod;
+}
+
+.panel-extraPortion-style > .panel-heading
+{
+  background-color: goldenrod;
+}
+
+.panel-extraPortion-style > .panel-body
+{
+  background-color: #f2c776;
+  opacity: 0.9;
 }

@@ -6,6 +6,7 @@ use App\Menu;
 use App\HeadDishes;
 use App\ChefSpecial;
 use App\Starters;
+use App\Soups;
 
 class MenuController extends Controller {
 
@@ -15,6 +16,7 @@ class MenuController extends Controller {
         $chefSpecials = ChefSpecial::All();
         $HeadDishes = HeadDishes::All();
         $Starters = Starters::All();
+        $Soups = Soups::All();
 
         $chefSpecialSpicy = array(4,8,11,12,14,16);
 
@@ -25,6 +27,7 @@ class MenuController extends Controller {
          'chefSpecials' => $chefSpecials,
          'spicyFoodLabel' => $chefSpecialSpicy,
          'starters' => $Starters,
+         'soups' => $Soups,
         );
                 
         return view('menu')->with($data);

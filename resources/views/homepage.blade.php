@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}" />
     <link rel="stylesheet" href="{{asset('css/homeCSS.css')}}" />
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
-        crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -26,7 +26,7 @@
         <div id="FoodSlideShow" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
-                <div class="item active">
+                <div class="item active container-fluid">
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive center imageFit" src="{{URL('/images/SlideOne/Fish_Tofu.png')}}">
@@ -34,8 +34,10 @@
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive imageFit" src="{{URL('/images/SlideOne/Traditional_Cantonese_Beef_Brisket.png')}}">
-                            <h5 class="text-center textBlackFontForGallery">Traditional Cantonese Beef Brisket 广式牛腩饭</h5>
+                            <img class="img-responsive imageFit"
+                                src="{{URL('/images/SlideOne/Traditional_Cantonese_Beef_Brisket.png')}}">
+                            <h5 class="text-center textBlackFontForGallery">Traditional Cantonese Beef Brisket 广式牛腩饭
+                            </h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
@@ -47,7 +49,8 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive center imageFit" src="{{URL('/images/SlideOne/FUKIEN_FRICE_RICE.png')}}">
+                            <img class="img-responsive center imageFit"
+                                src="{{URL('/images/SlideOne/FUKIEN_FRICE_RICE.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Fukien Fried Rice 福建饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
@@ -57,17 +60,20 @@
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
-                            <img class='img-responsive soupImageFit' src="{{URL('/images/SlideOne/Seaprised_Aubergine_Rice.png')}}">
+                            <img class='img-responsive soupImageFit'
+                                src="{{URL('/images/SlideOne/Seaprised_Aubergine_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Seaprised Aubergine Rice 鱼香茄子饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item container-fluid">
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive center imageFit" src="{{URL('/images/SlideTwo/Braised_Pork_With_Soya_Sauce_Rice.png')}}">
-                            <h5 class="text-center textBlackFontForGallery">Braised Pork With Soya Sauce With Rice 红烧肉饭</h5>
+                            <img class="img-responsive center imageFit"
+                                src="{{URL('/images/SlideTwo/Braised_Pork_With_Soya_Sauce_Rice.png')}}">
+                            <h5 class="text-center textBlackFontForGallery">Braised Pork With Soya Sauce With Rice 红烧肉饭
+                            </h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
@@ -76,19 +82,23 @@
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
-                            <img class='img-responsive imageFit' src="{{URL('/images/SlideTwo/Minced_Pork_Beans.png')}}">
+                            <img class='img-responsive imageFit'
+                                src="{{URL('/images/SlideTwo/Minced_Pork_Beans.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Minced Pork Beans With Rice 四季豆饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive center imageFit" src="{{URL('/images/SlideTwo/Spicy_Popcorn_Chicken_Rice.png')}}">
-                            <h5 class="text-center textBlackFontForGallery">Spicy Popcorn Chicken With Rice 辣子鸡饭</h5>
+                            <img class="img-responsive center imageFit"
+                                src="{{URL('/images/SlideTwo/Spicy_Popcorn_Chicken_Rice.png')}}">
+                            <h5 class="text-center textBlackFontForGallery">Spicy Popcorn Chicken With Rice 辣子鸡饭
+                            </h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive imageFit" src="{{URL('/images/SlideTwo/CharSiu_Honey_Sauce.png')}}">
+                            <img class="img-responsive imageFit"
+                                src="{{URL('/images/SlideTwo/CharSiu_Honey_Sauce.png')}}">
                             <h5 class="text-center textBlackFontForGallery">CharSiu Honey Sauce 蜜汁叉烧饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
@@ -102,16 +112,16 @@
             </div>
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#FoodSlideShow" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
             <a class="right carousel-control" href="#FoodSlideShow" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
-    <div id="contactDetail">
+    <div id="contactDetail" class="container-fluid">
         <div class="row backgroundRed">
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <div class="telephoneDetail text-center">
@@ -141,8 +151,8 @@
         </div>
         <div class="row">
             <div class="text-center FreeDrinkInfo col">
-                <div class="freeDrinkBorder"> 
-                    <p>Free tropical drinks or bottle of water for any order over £5!</p>
+                <div class="freeDrinkBorder">
+                <p>Free tropical drinks or bottle of water for any order over £5!</p>
                     <p>Free prawn cracker for over £10.99!</p>
                     <p>任何餐超过5英镑的订单将获得Caprisun饮品或者矿泉水</p>
                 </div>
@@ -150,7 +160,8 @@
         </div>
         <div class="row">
             <div class="text-center deliveryInfo col">
-                <p>We also delivery to university accomodations and libaries, however you might need to pick it up from the
+                <p>We also delivery to university accomodations and libaries, however you might need to pick it up from
+                    the
                     outside of your building</p>
                 <p>as the driver will not be able to get into the building without permission</p>
                 <p>Aplogoise for any inconvenice.</p>
@@ -159,6 +170,12 @@
             </div>
         </div>
     </div>
+    <div id="wechatInfo" class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img class="weChatImageInfo" src="{{URL('/images/WeChat/WeChatPay.png')}}">
+            </div>
+        </div>
 </body>
 
 </html>

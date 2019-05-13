@@ -1,0 +1,32 @@
+.imageFit
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 55%;
+}
+
+.textBlackFontForGallery {
+    margin-bottom: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin-top: 5px;
+  }
+
+.galleryOneLayout
+{
+    margin-top: 10px;
+}
+
+.galleryTwoLayout
+{
+    margin-top: 10px;
+}
+
+.helpTextForGallery
+{
+    margin-bottom: 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}

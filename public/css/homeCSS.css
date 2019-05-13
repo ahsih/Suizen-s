@@ -1,116 +1,138 @@
 .telephoneDetail p {
-    color: whitesmoke;
-    font-size: 20px;
+  color: whitesmoke;
+  font-size: 20px;
 }
 
-#telephoneNumber
-{
-    font-size: 26px;
-    text-decoration: underline;
-    color: whitesmoke;
+#telephoneNumber {
+  font-size: 26px;
+  text-decoration: underline;
+  color: whitesmoke;
 }
 
 .telephoneDetail h4 {
-    color: whitesmoke;
-    font-size: 30px;
+  color: whitesmoke;
+  font-size: 30px;
 }
 
 .addressDetail p {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .addressDetail h4 {
-    color: whitesmoke;
-    font-size: 30px;
+  color: whitesmoke;
+  font-size: 30px;
 }
 
 .addressParagraph {
-    font-size: 12px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .deliveryService h4 {
-    font-size: 30px;
-    color: whitesmoke;
+  font-size: 30px;
+  color: whitesmoke;
 }
 
 .deliveryService p {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: whitesmoke;
-    font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: whitesmoke;
+  font-size: 20px;
 }
 
 .backgroundRed {
-    background: #f23a55;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background: #f23a55;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .imageFit {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
-    height:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 
-.soupImageFit
-{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:50%;
-    height:50%;
+.soupImageFit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 
 #Gallery {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #f2c776;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f2c776;
 }
 
 .galleryTitle {
-    font-size: 60px;
-    font-family: "Times New Roman", Times, serif;
-    margin-bottom: 0px;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0px;
 }
 
 .lineThicknessForGallery {
-    border: none;
-    margin-bottom:3px;
-    margin-top: 3px;
-    height: 5px;
-   background-color: #FFD700;
+  border: none;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  height: 5px;
+  background-color: #ffd700;
 }
 
-.textBlackFontForGallery
-{
-    margin-bottom:0px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 24px;
+.textBlackFontForGallery {
+  margin-bottom: 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
 }
 
-.deliveryInfo
-{
-    background: #f23a55;
-    font-size: 18px;
-    color: whitesmoke;
+.deliveryInfo {
+  background: #f23a55;
+  font-size: 18px;
+  color: whitesmoke;
 }
 
-.FreeDrinkInfo
-{
-    padding-bottom: 20px;
-    background: #f23a55;
-    font-size: 20px;
-    color: #F9D700;
+.FreeDrinkInfo {
+  padding-bottom: 20px;
+  background: #f23a55;
+  font-size: 20px;
+  color: #f9d700;
 }
 
-.freeDrinkBorder
-{
-    margin-left: 20%;
-    width: 60%;
-    border-style: solid;
+.freeDrinkBorder {
+  margin-left: 20%;
+  width: 60%;
+  border-style: solid;
 }
 
+#wechatInfo {
+  background-color: #ecebeb;
+}
+
+.wechatTitle {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 720px) {
+  .weChatImageInfo {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .weChatImageInfo {
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 70px;
+  }
+}

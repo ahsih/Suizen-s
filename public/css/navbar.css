@@ -1,33 +1,57 @@
-#TitleHeading{
-    padding-top:10px;
-    background: #f23a55;
+#TitleHeading {
+  background: #f23a55;
 }
 
-#titleNavBar
-{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
-   text-decoration: none;
+#titleNavBar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+  text-decoration: none;
+  float: left;
 }
 
-.navBarMarginRight {
-    padding-top:  4px;
-    margin-right: 30%;
+@media screen and (max-width: 720px) {
+  .navBarMarginRight {
+    margin-right: 40%;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .navBarMarginRight {
+    margin-top: 20px;
+    margin-right: 5%;
+  }
 }
 
 .paragraphInline {
-    display: inline-block;
-    font-size: 18px;
-    margin-left: 10px;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 10px;
 }
 
-.subNavBarParagraph
-{
-    color: whitesmoke;
-    text-decoration: none;
+.subNavBarParagraph {
+  color: whitesmoke;
+  text-decoration: none;
 }
-.subNavBarParagraph:hover
-{
-    text-decoration: none;
+.subNavBarParagraph:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 721px) {
+  #firstNavBar {
+    padding-right: 15px;
+    border-right: 2px solid whitesmoke;
+  }
+
+  #secondNavBar {
+    padding-right: 15px;
+    border-right: 2px solid whitesmoke;
+  }
+
+  #thirdNavBar {
+    padding-right: 15px;
+    border-right: 2px solid whitesmoke;
+  }
 }
