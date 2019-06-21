@@ -30,6 +30,31 @@
   color:whitesmoke;
 }
 
+.allergyTitle
+{
+  color: red;
+}
+
+.allergyInfo
+{
+  color : black;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.allergySubInfo
+{
+  color : red;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .panel-menu-style
 {
   border-color:transparent;

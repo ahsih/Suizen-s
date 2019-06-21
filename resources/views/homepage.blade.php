@@ -123,6 +123,9 @@
     </div>
     <div id="contactDetail" class="container-fluid">
         <div class="row backgroundRed">
+            <div class="col-12">
+                <h2 class="text-center OpeningHourInfo">Open 7 days a week from 12pm to 3:30pm then 5pm to 10:30pm</h2>
+            </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <div class="telephoneDetail text-center">
                     <h4>Telephone Number/电话号码</h4>

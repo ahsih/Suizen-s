@@ -62,8 +62,184 @@
                 <h6 class="text-center textBlackFontForGallery">£6.50</h6>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
-                <img class="imageFit" src="{{URL('/images/GalleryOne/SET_C.png')}}">
+                <img class="imageFit" src="{{URL('/images/GalleryOne/Chilli_Salt_Ribs_rice.png')}}">
                 <h5 class="text-center textBlackFontForGallery">Chili & salt ribs wtih rice 椒盐排骨饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+        </div>
+        <div class="row galleryFiveLayout">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Char_Siu_Soup_Thin_Rice_Noodle.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Char siu soup with thin rice noodle 叉烧汤面</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Choi_Sum.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Choi Sum 蒜蓉菜心</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Five_Spices_Pork_Ear.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Five spices pork ear with rice 五香猪耳饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Mapo_ToFu.png')}}">
+                <h5 class="text-center textBlackFontForGallery">MaPo tofu with rice 麻婆豆腐饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Szechuan_Kprawn.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Szchuan king prawn with rice 四川大虾饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Tom_Yum_Soup.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Tom yum soup with thin rice noodle 冬阴米粉汤</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/WaDaHor.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Wan tan hor 滑蛋河</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFive/Zha_Cai_Pork_Soup_Thin_Noodle.png')}}">
+                <h5 class="text-center textBlackFontForGallery">ZhaCai Pork soup with thin noodle 榨菜肉丝汤面</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+        </div>
+        <div class="row galleryTwoLayout">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/Beef_BBS.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Beef BBS with rice 士椒牛肉饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/Beef_Satay.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Beef satay with rice 沙爹牛肉饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/Chicken_Curry_Rice.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Chicken curry with rice 咖喱鸡肉饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/Chill_Salt_Squid.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Chili and salt squid with rice 椒盐鱿鱼圈饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/KungPoChicken.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Kungpo chicken with rice 星洲炒米粉</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/Stirfried shredded potato.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Stirfried shredded potato 土豆丝</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/TomYumRice.png')}}">
+                <h5 class="text-center textBlackFontForGallery">TomYum rice 冬阴饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryTwo/XO_Seafood_Udon.png')}}">
+                <h5 class="text-center textBlackFontForGallery">XO seafood udon 海鲜乌冬面</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
+            </div>
+        </div>
+        <div class="row galleryThreeLayout">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Chicken_Lemon_Sauce.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Chicken in lemon sauce with rice  柠檬鸡肉饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Kprawn_Fried_Rice.png')}}">
+                <h5 class="text-center textBlackFontForGallery">King prawn fried rice 大虾炒饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£5.80</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Roast_Chicken_Chinese_Style.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Roast chicken chinese style with fried rice 炸鸡排炒饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Salt_Pepper_Kprawn.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Salt & pepper king prawn with fried rice 椒盐大虾炒饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Special_Chop_Suey.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Special chop suey with fried rice 招牌蔬菜炒饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Special_Curry.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Special curry with fried rice 招牌咖喱炒饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Sweet_Sour_Chicken.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Sweet & sour chicken with fried rice 酸甜炸鸡炒饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryThree/Szechuan_Beef.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Szechuan beef with fried rice 四川牛肉饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+        </div>
+        <div class="row galleryFourLayout">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/Crisp_Shredded_Beef.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Crisp shredded beef with rice 京汁干牛丝饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/Duck_In_plum_Sauce.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Duck in plum sauce with rice 梅汁烤鸭饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/Ginger_Beef_SpringOnion.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Ginger beef spring onion with rice 姜葱牛肉饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/King_Prawn_Pineapple.png')}}">
+                <h5 class="text-center textBlackFontForGallery">King prawn pineapple with rice 大虾菠萝饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/KingprawnBambooshoot.png')}}">
+                <h5 class="text-center textBlackFontForGallery">King prawn bamboo shoot & water chestnut with rice 大虾竹笋饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/KungPoChicken.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Kung po chicken with rice 宫保鸡饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/Mixed_Vegetable_ChopSuey.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Mixed vegetable chopsuey with rice 素菜饭</h5>
+                <h6 class="text-center textBlackFontForGallery">£5.50</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <img class="imageFit" src="{{URL('/images/GalleryFour/Special_Chow_Mein_Sauce.png')}}">
+                <h5 class="text-center textBlackFontForGallery">Special chow mein (SAUCE) 招牌面（酱）</h5>
                 <h6 class="text-center textBlackFontForGallery">£6.00</h6>
             </div>
         </div>

@@ -36,6 +36,25 @@
                                 <p class=InfoSubTitle>
                                     Both Dish + Rice will be placed in the same container.
                                 </p>
+                                <p class=InfoSubTitle>
+                                    Both Dish + Rice will be placed in the same container.
+                                </p>
+                                <p class=InfoSubTitle>
+                                    Special dishes contains:<span  style="color: red"> chicken, beef , duck, char siu(pork) and king prawn</span>.
+                                </p>
+                            </div>
+                            <div class="panel-heading allergyTitle">
+                                <p class="allergyInfo">
+                                    Please let us know if you are allergy to one of the allergens:
+                                </p>
+                                <p class="allergySubInfo">
+                                    Cereals, Crustaceans, Eggs, Fish, Peanuts, Soybeans, Milk
+                                </p>
+                                <p class="allergySubInfo">
+                                        Nuts, Celery, Mustard, Sesame seeds,
+                                        Sulphur Dioxide, Lupin and Molluscs.
+                                </p>
+                            </div>
                             </div>
                         </div>
                             <div id="chefSpecial" class="panel panel-menu-style">
