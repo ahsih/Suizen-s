@@ -31,10 +31,7 @@
                                         For your info:
                                 </p>
                                 <p class="InfoSubTitle">
-                                     Dish + Rice is £6.00, if the dish is more than £6.00 then it will be the same price with the rice.
-                                </p>
-                                <p class=InfoSubTitle>
-                                    Both Dish + Rice will be placed in the same container.
+                                     Dish + Rice is £6.00, more than £6.00 stay the same.
                                 </p>
                                 <p class=InfoSubTitle>
                                     Both Dish + Rice will be placed in the same container.

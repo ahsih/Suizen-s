@@ -145,23 +145,26 @@
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <div class="deliveryService text-center">
-                    <h4>Delivery Service/送餐服务</h4>
+                    <h4>Delivery service only available on Friday and Saturday</h4>
+                    <p>Sorry for any inconvenience</p>
+                    <!--<h4>Delivery Service/送餐服务</h4>
                     <p>There is no minimum order for delivery service</p>
                     <p>送餐服务收£1,没有最低消费</p>
-                    <p>We also do Take Away/Eat In</p>
+                    <p>We also do Take Away/Eat In</p> -->
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="text-center FreeDrinkInfo col">
-                <div class="freeDrinkBorder">
+        <div class="text-center FreeDrinkInfo row">
+            <div class="weChatInfo col-12">
+                <p>We Accept WeChat Payment 接受微信支付！！！</p>
+            </div>
+            <div class="freeDrinkBorder col-12">
                 <p>Free tropical drinks or bottle of water for any order over £5!</p>
-                    <p>Free prawn cracker for over £10.99!</p>
-                    <p>任何餐超过5英镑的订单将获得Caprisun饮品或者矿泉水</p>
-                </div>
+                <p>Free prawn cracker for over £10.99!</p>
+                <p>任何餐超过6英镑的订单将获得Caprisun饮品或者矿泉水</p>
             </div>
         </div>
-        <div class="row">
+        <!--<div class="row">
             <div class="text-center deliveryInfo col">
                 <p>We also delivery to university accomodations and libaries, however you might need to pick it up from
                     the
@@ -171,14 +174,8 @@
                 <p>我们也送到大学宿舍或者图书馆，不过你可能需要出来取餐哦，因为司机可能进不去.</p>
                 <p>给你带来不便之处，敬请原谅.</p>
             </div>
-        </div>
+        </div>-->
     </div>
-    <div id="wechatInfo" class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <img class="weChatImageInfo" src="{{URL('/images/WeChat/WeChatPay.png')}}">
-            </div>
-        </div>
 </body>
 
 </html>
