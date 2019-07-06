@@ -29,19 +29,19 @@
                 <div class="item active container-fluid">
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive center imageFit" src="{{URL('/images/SlideOne/Fish_Tofu.png')}}">
+                            <img class="img-responsive center imageFit" src="{{asset('/images/SlideOne/Fish_Tofu.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Braised Fish Tofu Rice 斑斓豆腐鱼饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive imageFit"
-                                src="{{URL('/images/SlideOne/Traditional_Cantonese_Beef_Brisket.png')}}">
+                                src="{{asset('/images/SlideOne/Traditional_Cantonese_Beef_Brisket.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Traditional Cantonese Beef Brisket 广式牛腩饭
                             </h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
-                            <img class='img-responsive imageFit' src="{{URL('/images/SlideOne/Cumin_Chili_Beef.png')}}">
+                            <img class='img-responsive imageFit' src="{{asset('/images/SlideOne/Cumin_Chili_Beef.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Cumin Chili Beef 孜然牛肉饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50
                                 <i style='font-size:24px' class='fas'>&#xf164;</i></h6>
@@ -50,18 +50,18 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive center imageFit"
-                                src="{{URL('/images/SlideOne/FUKIEN_FRICE_RICE.png')}}">
+                                src="{{asset('/images/SlideOne/FUKIEN_FRICE_RICE.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Fukien Fried Rice 福建饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive imageFit" src="{{URL('/images/SlideOne/Roast_Duck_Rice.png')}}">
+                            <img class="img-responsive imageFit" src="{{asset('/images/SlideOne/Roast_Duck_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Roast Duck BBQ Rice 烧鸭饭（没骨）</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
                             <img class='img-responsive soupImageFit'
-                                src="{{URL('/images/SlideOne/Seaprised_Aubergine_Rice.png')}}">
+                                src="{{asset('/images/SlideOne/Seaprised_Aubergine_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Seaprised Aubergine Rice 鱼香茄子饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
@@ -71,19 +71,19 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive center imageFit"
-                                src="{{URL('/images/SlideTwo/Braised_Pork_With_Soya_Sauce_Rice.png')}}">
+                                src="{{asset('/images/SlideTwo/Braised_Pork_With_Soya_Sauce_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Braised Pork With Soya Sauce With Rice 红烧肉饭
                             </h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
-                            <img class="img-responsive imageFit" src="{{URL('/images/SlideTwo/Sweet_Sour_Fish.png')}}">
+                            <img class="img-responsive imageFit" src="{{asset('/images/SlideTwo/Sweet_Sour_Fish.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Sweet & Sour Fish With Rice 酸甜鱼饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
                             <img class='img-responsive imageFit'
-                                src="{{URL('/images/SlideTwo/Minced_Pork_Beans.png')}}">
+                                src="{{asset('/images/SlideTwo/Minced_Pork_Beans.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Minced Pork Beans With Rice 四季豆饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50
                         </div>
@@ -91,19 +91,19 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive center imageFit"
-                                src="{{URL('/images/SlideTwo/Spicy_Popcorn_Chicken_Rice.png')}}">
+                                src="{{asset('/images/SlideTwo/Spicy_Popcorn_Chicken_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Spicy Popcorn Chicken With Rice 辣子鸡饭
                             </h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive imageFit"
-                                src="{{URL('/images/SlideTwo/CharSiu_Honey_Sauce.png')}}">
+                                src="{{asset('/images/SlideTwo/CharSiu_Honey_Sauce.png')}}">
                             <h5 class="text-center textBlackFontForGallery">CharSiu Honey Sauce 蜜汁叉烧饭</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.00</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
-                            <img class='img-responsive soupImageFit' src="{{URL('/images/SlideTwo/WaDaHor.png')}}">
+                            <img class='img-responsive soupImageFit' src="{{asset('/images/SlideTwo/WaDaHor.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Wat Tan Hor 滑旦河</h5>
                             <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
