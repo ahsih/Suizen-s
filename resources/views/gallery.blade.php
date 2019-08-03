@@ -136,7 +136,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3">
                 <img class="imageFit" src="{{URL('/Images/GalleryTwo/KungPoChicken.png')}}">
-                <h5 class="text-center textBlackFontForGallery">Kungpo chicken with rice 星洲炒米粉</h5>
+                <h5 class="text-center textBlackFontForGallery">Kungpo chicken with rice 宫保鸡丁饭</h5>
                 <h6 class="text-center textBlackFontForGallery">£6.00</h6>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
