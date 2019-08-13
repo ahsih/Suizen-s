@@ -155,9 +155,9 @@
             </div>
         </div>
         <div class="text-center FreeDrinkInfo row">
-            <div class="weChatInfo col-12">
+            <!--<div class="weChatInfo col-12">
                 <p>We Accept WeChat Payment 接受微信支付！！！</p>
-            </div>
+            </div>-->
             <div class="freeDrinkBorder col-12">
                 <p>Free tropical drinks or bottle of water for any order over £5!</p>
                 <p>Free prawn cracker for over £10.99!</p>
