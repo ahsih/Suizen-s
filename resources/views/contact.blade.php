@@ -41,7 +41,9 @@
                 <br>
                 <p class="subTitle text-center">Opening Hours 营业时间</p>
                 <p class="text-center normalText">Monday-Sunday 星期一到日 <span class="redColor">12pm -> 10:45pm</span></p>
-                <p class="text-center normalText">Delivery Service 送餐服务 <span class="redColor">5pm -> 10:30pm</span></p>
+                <p class="text-center normalText"><span class="redColor">Unforunately Delivery Service is not available at the moment</span> </p>
+                <!--<p class="text-center normalText"><span class="redColor">
+                    Delivery Service 送餐服务 <span class="redColor">5pm -> 10:30pm</span></p>-->
                 <p class="text-center normalText">Open 7 days a week including bank holidays</p>
             </div>
         </div>
