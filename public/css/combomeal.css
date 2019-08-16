@@ -1,0 +1,156 @@
+.panel-title-style {
+  margin-bottom: 0px;
+}
+
+.panel-option-style{
+  margin-bottom: 0px;
+}
+
+.panel-Meat-style 
+{
+  margin-bottom: 0px;
+}
+.panel-Style-style 
+{
+  margin-bottom: 0px;
+}
+
+.panel-title-style > .panel-heading {
+  background-color: #460a0a;
+}
+
+.panel-option-style > .panel-heading {
+  background-color: #509127;
+}
+
+.panel-Meat-style >.panel-heading 
+{
+  background-color:#a65d05;
+}
+
+.panel-Style-style > .panel-heading
+{
+  background-color: #d4cb26;
+}
+
+.panel-Side-style > .panel-heading
+{
+  background-color: #593511;
+}
+
+.font-layout {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.Title {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.SubTitle {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: whitesmoke;
+  margin: 0px;
+  margin-left: 10%;
+}
+
+#ChooseTitle
+{
+    margin-left: 15%;
+}
+
+.firstSize {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: whitesmoke;
+  margin: 0px;
+  margin-left: 25%;
+}
+
+.secondSize{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: whitesmoke;
+  margin: 0px;
+  margin-left: 20%;
+}
+
+.styleSize
+{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color:  #ed3118;
+  margin: 0px;
+  margin-left: 20%;
+}
+
+
+.styleSubSize
+{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color:  #ed3118;
+  margin: 0px;
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 720px) {
+  .styleSubSize
+  {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    color:  #ed3118;
+    margin: 0px;
+    margin-left: 10%;
+  }
+  .styleSize
+{
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color:  #ed3118;
+  margin: 0px;
+  margin-left: 10%;
+}
+
+}
+
+
+.styleChineseLayout
+{
+  margin-left: 5px;
+}
+
+.meatOption
+{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.priceAdding
+{
+  margin-top: 5px;
+}
+
+.redColor
+{
+    color: #ed3118;
+}
+
+.symbolFontSize
+{
+    font-size: 25px;
+}

@@ -47,6 +47,11 @@
   padding-bottom: 20px;
 }
 
+.body
+{
+ background: #f23a55;
+}
+
 .imageFit {
   display: block;
   margin-left: auto;

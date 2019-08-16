@@ -12,8 +12,9 @@
 */
 
 // HomePage
-Route::get('/', 'HomeController@index');
-Route::get('/home', 'HomeController@index');
-Route::get('/menu','MenuController@index');
-Route::get('/contact','ContactController@index');
-Route::get('/gallery','GalleryController@index');
+    Route::get('/', 'HomeController@index');
+    Route::get('/home', 'HomeController@index');
+    Route::get('/menu','MenuController@index');
+    Route::get('/contact','ContactController@index');
+    Route::get('/gallery','GalleryController@index');
+    Route::get('/combo','ComboMealController@index');
