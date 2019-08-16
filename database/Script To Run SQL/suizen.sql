@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 25, 2019 at 10:03 PM
+-- Generation Time: Aug 16, 2019 at 07:34 PM
 -- Server version: 5.7.14
 -- PHP Version: 7.1.10
 
@@ -58,6 +58,91 @@ INSERT INTO `chef_specials` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Price
 (15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered Cod Fish Mixed With Tofu, Broccoli Then Cooked With Cantonese Oyster Sauce. Very Sweet and tasty!!! ', '6.50', 1, 23),
 (16, '41g', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear Or Pork Belly Cooked With Spicy Sauce & Then Mixed With Green Pepper & Onions. Very tasty If You Eat Pork!!!', '6.50', 1, 23),
 (17, '105.4', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.50', 0, 23);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `combo_meal__meats`
+--
+
+CREATE TABLE `combo_meal__meats` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `FoodName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ChineseName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `combo_meal__meats`
+--
+
+INSERT INTO `combo_meal__meats` (`id`, `FoodName`, `ChineseName`) VALUES
+(1, 'Duck', '鸭肉'),
+(2, 'Chicken', '鸡肉'),
+(3, 'Beef', '牛肉'),
+(4, 'King Prawn', '大虾'),
+(5, 'Shrimp', '虾仁'),
+(6, 'Char Siu (Pork)', '叉烧'),
+(7, 'Tofu', '豆腐'),
+(8, 'Mutton', '羊肉'),
+(9, 'Fish Cake', '鱼饼'),
+(10, 'Crab meat (Ocean Sticks)', '蟹肉'),
+(11, 'Vegetables', '蔬菜');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `combo_meal__sides`
+--
+
+CREATE TABLE `combo_meal__sides` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `FoodName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ChinseName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `HelpText` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `combo_meal__sides`
+--
+
+INSERT INTO `combo_meal__sides` (`id`, `FoodName`, `ChinseName`, `HelpText`) VALUES
+(1, 'Chips', '薯条', NULL),
+(2, 'Egg Fried Rice', '蛋炒饭', NULL),
+(3, 'Plain boiled rice', '白饭', 'Steam rice'),
+(4, 'Thick Egg Noodles', '粗蛋面', NULL),
+(5, 'Thin Egg Noodles', '细蛋面', NULL),
+(6, 'Flat Rice Noodles ', '河粉', 'Ho Fun'),
+(7, 'Thin Rice Noodles', '米粉', 'Vermicelli'),
+(8, 'Ramen Style Noodles', '方便面 ', 'Instant Noodles');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `combo_meal__styles`
+--
+
+CREATE TABLE `combo_meal__styles` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `OrderNumber` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `FoodName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ChineseName` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `HelpText` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ChineseHelpText` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `combo_meal__styles`
+--
+
+INSERT INTO `combo_meal__styles` (`id`, `OrderNumber`, `FoodName`, `ChineseName`, `HelpText`, `ChineseHelpText`) VALUES
+(1, '1050', 'CURRY', '咖喱味', 'Delicious Oriental Mild Curry Sauce With Onion & Peas', NULL),
+(2, '1051', 'SATAY', '沙爹酱', 'Delicious Spicy Peanut Satay Sauce mixed with Green Peppers, Baby Corn, Onions and Pineapples', NULL),
+(3, '1052', 'SINGAPORE', '星洲味', 'Red Pepper Fried with Hot Chili Oil', NULL),
+(4, '1053', 'SZCHUAN', '四川味', 'A Delicious Hot & Spicy Sauce with Onions, Baby Corn and Green Peppers.', NULL),
+(5, '1054', 'BLACK BEAN SAUCE', '士椒味', 'Onions， Green Peppers and Carrots Cooked with Black Bean Sauce (Salty and a Hint of sweet)', NULL),
+(6, '1055', 'CANTONESE', '广式味', 'A Delicious Oyster Sauce (Sweet) mixed with Onions, Carrots, Baby Corn and Lettuce', NULL),
+(7, '1056', 'VIETNAMESE', '越南味', 'Garlic Fish Sauce mixed with Onions, Bamboo Shoots & Water Chestnuts, Green Peppers and Pineapples', NULL),
+(8, '1057', 'SOUP BASED STYLE', '汤面类', 'Plain and Mild Soup mixed with Broccoli, Lettuce and Onions', NULL);
 
 -- --------------------------------------------------------
 
@@ -342,7 +427,10 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (8, '2019_02_20_223925_create_head_dishes_table', 1),
 (9, '2019_03_01_223740_create_starters_table', 2),
 (10, '2019_03_01_225046_create_soups_table', 3),
-(11, '2019_03_01_232558_create_chef_specials_table', 4);
+(11, '2019_03_01_232558_create_chef_specials_table', 4),
+(12, '2019_08_14_192340_create_combo_meal__meats_table', 5),
+(13, '2019_08_14_192510_create_combo_meal__styles_table', 5),
+(14, '2019_08_14_192653_create_combo_meal__sides_table', 5);
 
 -- --------------------------------------------------------
 
@@ -423,7 +511,7 @@ INSERT INTO `starters` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Small`, `L
 (5, '1014', 'King Prawn Toast 酥炸下多士 ', 'King Prawn Paste Generously Spread on Toast, Topped with Sesame Seeds', '3.50', '4.30', 1, 20, NULL, NULL),
 (6, '1015', 'Breaded Calamari Rings 酥炸鱿鱼圈 ', 'Deep Fried Calamari in a Light Crispy Batter Served with Sweet Chilli Sauce', '3.50', '4.30', 0, 20, NULL, NULL),
 (7, '1017', 'Onion Rings 脆香洋葱圈 ', 'Deep Fried in a Light Crispy Batter Served with a Dip', '3.50', '4.30', 0, 20, NULL, NULL),
-(8, '1018', 'Chicken Wings 炸鸡翅  ', '4-5 On Small Portions and 8-9 On Large Portions. Sauces: Chili & Salt / BBQ / Dry / Other. I recommend Chili & Salt - spicy.', '3.50', '4.30', 1, 20, NULL, NULL),
+(8, '1018', 'Chicken Wings 炸鸡翅  ', '4-5 On Small Portions and 8-9 On Large Portions. Sauces: Chili & Salt / BBQ / Dry / Capital(Peking) / Satay . I recommend Chili & Salt - spicy.', '3.50', '4.30', 1, 20, NULL, NULL),
 (9, '1020', 'Chilli & Salt Spicy Chips 椒盐薯条 ', 'Chips Spiced with Onions, Green Peppers & Fresh Chili', '3.50', '4.30', 0, 20, NULL, NULL),
 (10, '1021', 'Salt & Peppers Squids 椒盐鱿鱼', 'Battered Squids Cooked with chili and salt.\r\nI highly recommend you go for the large portion.', '3.80', '5.50', 1, 20, NULL, NULL);
 
@@ -451,6 +539,24 @@ CREATE TABLE `users` (
 -- Indexes for table `chef_specials`
 --
 ALTER TABLE `chef_specials`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `combo_meal__meats`
+--
+ALTER TABLE `combo_meal__meats`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `combo_meal__sides`
+--
+ALTER TABLE `combo_meal__sides`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `combo_meal__styles`
+--
+ALTER TABLE `combo_meal__styles`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -499,6 +605,21 @@ ALTER TABLE `users`
 ALTER TABLE `chef_specials`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
+-- AUTO_INCREMENT for table `combo_meal__meats`
+--
+ALTER TABLE `combo_meal__meats`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+--
+-- AUTO_INCREMENT for table `combo_meal__sides`
+--
+ALTER TABLE `combo_meal__sides`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+--
+-- AUTO_INCREMENT for table `combo_meal__styles`
+--
+ALTER TABLE `combo_meal__styles`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+--
 -- AUTO_INCREMENT for table `head_dishes`
 --
 ALTER TABLE `head_dishes`
@@ -512,7 +633,7 @@ ALTER TABLE `menus`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `soups`
 --
