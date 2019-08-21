@@ -40,9 +40,8 @@
                                 </p>
                                 <p class="firstSize"><span class="redColor symbolFontSize">②</span> A type of Style 风味
                                 </p>
-                                <p class="firstSize"><span class="redColor symbolFontSize">③</span> A type of Side
-                                    Choice/Extra 饭或面</p>
-                                <p class="firstSize"> To create a combo meal <span class="redColor">(All in One
+                                <p class="firstSize"><span class="redColor symbolFontSize">③</span> Choice of Rice/Noodles 饭或面</p>
+                                <p class="firstSize lastOption"> To create a combo meal <span class="redColor">(All in One
                                         Container)</span> 全部装在一个盒子</p>
                             </div>
                         </div>
@@ -53,13 +52,13 @@
                                 <p id="ChooseTitle" class="firstSize"><span class="symbolFontSize">①</span> Meat Choices
                                     (CHOOSE ONE) 肉类选择:</p>
                                 <p class="secondSize">@for($i=0;$i < count($meats) / 2;$i++)<span class="meatOption">
-                                        {{ $meats[$i]->FoodName }}</span>@endfor</p>
+                                    {{ $meats[$i]->id }}.{{ $meats[$i]->FoodName }} </span>@endfor</p>
                                 <p class="secondSize">@for($i=count($meats)/2 + 1;$i < count($meats);$i++) <span
-                                        class="meatOption">{{ $meats[$i]->FoodName }}</span> @endfor</p>
-                                <p class="secondSize">@for($i=0;$i < count($meats) / 2;$i++)<span class="meatOption">
-                                        {{ $meats[$i]->ChineseName }}</span>@endfor</p>
+                                        class="meatOption">{{ $meats[$i]->id }}.{{ $meats[$i]->FoodName }}</span> @endfor</p>
+                                <p class="secondSize chineseMeatMarginTop">@for($i=0;$i < count($meats) / 2;$i++)<span class="meatOption">
+                                    {{ $meats[$i]->id }}.{{ $meats[$i]->ChineseName }}</span>@endfor</p>
                                 <p class="secondSize">@for($i=count($meats)/2 + 1;$i < count($meats);$i++) <span
-                                        class="meatOption">{{ $meats[$i]->ChineseName }}</span> @endfor</p>
+                                        class="meatOption">{{ $meats[$i]->id }}.{{ $meats[$i]->ChineseName }}</span> @endfor</p>
                             </div>
                         </div>
                     </div>
@@ -69,11 +68,11 @@
                                 <p id="ChooseTitle" class="firstSize redColor"><span class="symbolFontSize">②</span>
                                     Style Options 风味选择:</p>
                                 @foreach ($styles as $style)
-                                <p class="styleSize">[{{$style->OrderNumber}}]
+                                <p class="styleSize styleMarginTop">[{{$style->OrderNumber}}]
                                     <span>{{ $style->FoodName }}</span>
                                     <span class="styleChineseLayout">{{  $style->ChineseName }}</span>
                                 </p>
-                            <p class="styleSubSize">{{ $style->HelpText}}</p>
+                            <p class="styleSubSize styleMarginBottom">{{ $style->HelpText}}</p>
                                 @endforeach
                             </div>
                         </div>

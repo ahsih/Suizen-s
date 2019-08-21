@@ -2,16 +2,14 @@
   margin-bottom: 0px;
 }
 
-.panel-option-style{
+.panel-option-style {
   margin-bottom: 0px;
 }
 
-.panel-Meat-style 
-{
+.panel-Meat-style {
   margin-bottom: 0px;
 }
-.panel-Style-style 
-{
+.panel-Style-style {
   margin-bottom: 0px;
 }
 
@@ -23,18 +21,15 @@
   background-color: #509127;
 }
 
-.panel-Meat-style >.panel-heading 
-{
-  background-color:#a65d05;
+.panel-Meat-style > .panel-heading {
+  background-color: #a65d05;
 }
 
-.panel-Style-style > .panel-heading
-{
+.panel-Style-style > .panel-heading {
   background-color: #d4cb26;
 }
 
-.panel-Side-style > .panel-heading
-{
+.panel-Side-style > .panel-heading {
   background-color: #593511;
 }
 
@@ -62,9 +57,8 @@
   margin-left: 10%;
 }
 
-#ChooseTitle
-{
-    margin-left: 15%;
+#ChooseTitle {
+  margin-left: 15%;
 }
 
 .firstSize {
@@ -76,7 +70,7 @@
   margin-left: 25%;
 }
 
-.secondSize{
+.secondSize {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
@@ -85,72 +79,82 @@
   margin-left: 20%;
 }
 
-.styleSize
-{
+.styleSize {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  color:  #ed3118;
+  color: #ed3118;
   margin: 0px;
   margin-left: 20%;
 }
 
-
-.styleSubSize
-{
+.styleSubSize {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
-  color:  #ed3118;
+  color: #ed3118;
   margin: 0px;
   margin-left: 25%;
 }
 
 @media screen and (max-width: 720px) {
-  .styleSubSize
-  {
+  .styleSubSize {
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
     font-size: 12px;
-    color:  #ed3118;
+    color: #ed3118;
     margin: 0px;
     margin-left: 10%;
   }
-  .styleSize
-{
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  color:  #ed3118;
-  margin: 0px;
-  margin-left: 10%;
+  .styleSize {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #ed3118;
+    margin: 0px;
+    margin-left: 10%;
+  }
+  .secondSize {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 0px;
+    margin-left: 20%;
+  }
+  .styleMarginTop
+  {
+    margin-top: 10px;
+  }
+  .styleMarginBottom
+  {
+    margin-bottom: 10px;
+  }
+  .chineseMeatMarginTop {
+    margin-top: 20px;
+  }
+  .lastOption {
+    margin-top: 15px;
+  }
 }
 
-}
-
-
-.styleChineseLayout
-{
+.styleChineseLayout {
   margin-left: 5px;
 }
 
-.meatOption
-{
+.meatOption {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.priceAdding
-{
+.priceAdding {
   margin-top: 5px;
 }
 
-.redColor
-{
-    color: #ed3118;
+.redColor {
+  color: #ed3118;
 }
 
-.symbolFontSize
-{
-    font-size: 25px;
+.symbolFontSize {
+  font-size: 25px;
 }
