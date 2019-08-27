@@ -145,7 +145,7 @@
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <div class="deliveryService text-center">
-                    <h4>Unforuantely, Delivery service is not available until September</h4>
+                    <h4>Unforuantely, Delivery service is not available</h4>
                     <p>Sorry for any inconvenience</p>
                     <!--<h4>Delivery Service/送餐服务</h4>
                     <p>There is no minimum order for delivery service</p>
