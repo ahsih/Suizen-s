@@ -148,6 +148,7 @@
                 <div class="deliveryService text-center">
                     <h4>Unforuantely, Delivery service is not available</h4>
                     <p>Sorry for any inconvenience</p>
+                    <p>Check Google for our latest opening hours</p>
                     <!--<h4>Delivery Service/送餐服务</h4>
                     <p>There is no minimum order for delivery service</p>
                     <p>送餐服务收£1,没有最低消费</p>
