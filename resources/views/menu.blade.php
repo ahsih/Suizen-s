@@ -111,7 +111,7 @@
                                     @if ($soup->Recommended)
                                     <i style='font-size:16px; color:red; margin-top:5px' class='fas'>&#xf164;</i></h6>
                                     @endif
-                                    <p class="priceLabel">£2.80</p>
+                                    <p class="priceLabel">£3.00</p>
                                     <br class="clearFloat" />
                                     <p class="hintNameLabel">{{ $soup->HelpText }}</p>
                                     <hr class="seperateLine"> @endforeach
