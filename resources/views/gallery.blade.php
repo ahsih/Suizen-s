@@ -21,25 +21,25 @@
     <div class="container-fluid">
             <div class="row gallerySixLayout">
                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <img class="imageFit" src="{{URL('/Images/GallerySix/Duck_curry_pork_belly_rice.png')}}">
+                        <img class="imageFit" src="{{URL('/Images/GallerySIx/Duck_curry_pork_belly_rice.png')}}">
                         <h5 class="text-center textBlackFontForGallery">Duck Curry + Seaprised Pork Belly + Rice </h5>
                         <h6 class="text-center helpTextForGallery">咖喱鸭+五香猪耳+饭</h6>
                         <h6 class="text-center textBlackFontForGallery">£8.00</h6>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <img class="imageFit" src="{{URL('/Images/GallerySix/hot_chicken_beef_bbs_rice.png')}}">
+                        <img class="imageFit" src="{{URL('/Images/GallerySIx/hot_chicken_beef_bbs_rice.png')}}">
                         <h5 class="text-center textBlackFontForGallery">Hot Chili Chicken + Beef BBS + Rice</h5>
                         <h6 class="text-center helpTextForGallery">辣子鸡+士椒牛+饭</h6>
                         <h6 class="text-center textBlackFontForGallery">£8.00</h6>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <img class="imageFit" src="{{URL('/Images/GallerySix/PorkEarChickenCurry.png')}}">
+                        <img class="imageFit" src="{{URL('/Images/GallerySIx/PorkEarChickenCurry.png')}}">
                         <h5 class="text-center textBlackFontForGallery">Seaprised Pork Ear + Chicken Curry + Rice</h5>
                         <h6 class="text-center helpTextForGallery">五香猪耳 + 咖喱鸡 + 饭</h6>
                         <h6 class="text-center textBlackFontForGallery">£8.00</h6>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3">
-                        <img class="imageFit" src="{{URL('/Images/GallerySix/CuminChiliChicken.png')}}">
+                        <img class="imageFit" src="{{URL('/Images/GallerySIx/CuminChiliChicken.png')}}">
                         <h5 class="text-center textBlackFontForGallery">Cumin & Chili Chicken</h5>
                         <h6 class="text-center helpTextForGallery">孜然鸡饭</h6>
                         <h6 class="text-center textBlackFontForGallery">£6.50</h6>
