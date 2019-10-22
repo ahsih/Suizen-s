@@ -67,6 +67,9 @@
                                     @if (in_array($chefSpecial->id,$spicyFoodLabel))
                                     <p class="fas fa-pepper-hot pepperLabel"></p>
                                     @endif
+                                    @if ($chefSpecial->Recommended)
+                                    <i style='font-size:16px; color:red; margin-top:5px' class='fas'>&#xf164;</i></h6>
+                                    @endif
                                     <p class="priceLabel">£{{ $chefSpecial->Price }}</p>
                                     <br class="clearFloat" />
                                     <p class="hintNameLabel">{{ $chefSpecial->HelpText }}</p>
