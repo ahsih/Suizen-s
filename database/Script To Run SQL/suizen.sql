@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 18, 2019 at 10:02 PM
+-- Generation Time: Oct 22, 2019 at 08:28 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.9
 
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `chef_specials` (
   `Recommended` tinyint(1) NOT NULL,
   `HeadDishes_Id` int(10) UNSIGNED DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `chef_specials`
@@ -61,7 +61,9 @@ INSERT INTO `chef_specials` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Price
 (14, '1051', 'Chili & Salt Fish 椒盐鱼 ', NULL, '6.50', 0, 23),
 (15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered Cod Fish Mixed With Tofu, Broccoli Then Cooked With Cantonese Oyster Sauce. Very Sweet and tasty!!! ', '6.50', 1, 23),
 (16, '41g', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear Or Pork Belly Cooked With Spicy Sauce & Then Mixed With Green Pepper & Onions. Very tasty If You Eat Pork!!!', '6.50', 1, 23),
-(17, '105.4', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.50', 0, 23);
+(17, '105.4', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.50', 0, 23),
+(18, '41.1', 'Cumin & Chili Beef 孜然鸡肉', NULL, '6.50', 1, 23),
+(19, '41.2', 'Cumin & Chili Chicken 孜然鸡肉', NULL, '6.50', 1, 23);
 
 -- --------------------------------------------------------
 
