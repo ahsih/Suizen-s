@@ -24,6 +24,7 @@
   border-color: transparent;
 }
 
+
 .panel-info-style > .panel-heading
 {
   background:#fcf6bd;
@@ -52,6 +53,27 @@
   margin-bottom: 0px;
   font-size: 14px;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.panel-closing-style > .panel-heading
+{
+  background: #cc3300;
+}
+
+.panel-closing-style
+{
+  border-color: transparent;
+}
+
+.closeNoticeText
+{
+  color : whitesmoke;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 

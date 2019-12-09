@@ -25,6 +25,13 @@
                 </div>
                 <div class="col-lg-7 col-sm-8 col-md-8">
                     <div class="menu-border">
+                        <div class="panel panel-closing-style">
+                            <div class="panel-heading">
+                                <p class="closeNoticeText">We will be closing from 17th December till 2nd January 2020</p>
+                                <p class="closeNoticeText">本店将在与12月17日关到2020年1月2日</p>
+                                <p class="closeNoticeText">Merry Christmas and Happy New Year!</p>
+                            </div>
+                        </div>
                         <div id="Info" class="panel panel-info-style">
                             <div class="panel-heading">
                                 <p class="InfoTitle">
