@@ -1,0 +1,13 @@
+.noticeBackgroundColor
+{
+    background-color: #ff0000;
+}
+
+.NoticeText
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color : whitesmoke;
+}

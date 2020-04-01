@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}" />
     <link rel="stylesheet" href="{{asset('css/combomeal.css')}}" />
+    <link rel="stylesheet" href="{{asset('css/Notice.css')}}"/>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
         integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous' />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -20,6 +21,7 @@
 
 <body>
     @include('include.navbar')
+    @include('include.Notice')
     <div>
         <div class="container-fluid">
             <div class="row">
