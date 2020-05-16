@@ -8,11 +8,12 @@
 ?>
 <div id="TitleHeading" class="container-fluid">
     <div class="row">
-        <div class="col-7">
-            <h2 class="text-center"><a id="titleNavBar" href="{{ url('/home') }}">Suizen Noodle Bar <br>广东楼</a></h2>
+        <div class="col-sm-12 col-lg-7">
+            <h2><a class="titleNavBar" href="{{ url('/home') }}">Suizen Noodle Bar</a></h2>
+            <h2><a class="secondTitleNavBar" href="{{ url('/home') }}">广东楼</a></h2>
         </div>
-        <div class="col">
-            <nav class="float-right navBarMarginRight">
+        <div class="col-sm-12 col-lg-5">
+            <nav class="navBarMarginRight">
                 <p class="paragraphInline" id="firstNavBar"><a class="subNavBarParagraph" href="{{ url('/home') }}">Home
                         主页</a></p>
                 <p class="paragraphInline" id="secondNavBar"><a class="subNavBarParagraph"

@@ -2,19 +2,56 @@
   background: #f23a55;
 }
 
-#titleNavBar {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 25px;
-  font-family: "Times New Roman", Times, serif;
-  color: whitesmoke;
-  text-decoration: none;
-  float: left;
+@media screen and (max-width: 720px) {
+  .titleNavBar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 25%;
+  }
+  .secondTitleNavBar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .titleNavBar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .titleNavBar:hover {
+    text-decoration: none;
+  }
+  .secondTitleNavBar:hover {
+    text-decoration: none;
+  }
+  .secondTitleNavBar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    text-decoration: none;
+  }
 }
 
 @media screen and (max-width: 720px) {
-  .navBarMarginRight {
-    margin-right: 40%;
+  .paragraphInline {
+    font-size: 18px;
+    margin-left: 15%;
   }
 }
 
@@ -23,12 +60,11 @@
     margin-top: 20px;
     margin-right: 5%;
   }
-}
-
-.paragraphInline {
-  display: inline-block;
-  font-size: 18px;
-  margin-left: 10px;
+  .paragraphInline {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+  }
 }
 
 .subNavBarParagraph {
@@ -53,10 +89,9 @@
     padding-right: 15px;
     border-right: 2px solid whitesmoke;
   }
-  
+
   #fourthNavBar {
     padding-right: 15px;
     border-right: 2px solid whitesmoke;
   }
-
 }
