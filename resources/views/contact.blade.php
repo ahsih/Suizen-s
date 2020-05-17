@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{asset('css/Notice.css')}}"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Suizen Noodle Bar</title>
+    <title>Suizen Noodle Bar 伯明翰广东楼餐馆</title>
 </head>
 
 <body>
