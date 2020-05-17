@@ -26,41 +26,115 @@
                 <div class="col-lg-3 col-sm-0 col-md-0">
                 </div>
                 <div class="col-lg-7 col-sm-8 col-md-8">
-                    <div class="menu-border">
-                        <!--<div class="panel panel-closing-style">
-                            <div class="panel-heading">
-                                <p class="closeNoticeText">We will be closing from 17th December till 2nd January 2020</p>
-                                <p class="closeNoticeText">本店将在与12月17日关到2020年1月2日</p>
-                                <p class="closeNoticeText">Merry Christmas and Happy New Year!</p>
+                    <div id="Info" class="panel panel-info-style">
+                        <div class="panel-heading">
+                            <p class="InfoTitle">
+                                For your info:
+                            </p>
+                            <p class="InfoSubTitle">
+                                Dish + Rice is £6.00, more than £6.00 stay the same.
+                            </p>
+                            <p class=InfoSubTitle>
+                                Both Dish + Rice will be placed in the same container.
+                            </p>
+                            <p class=InfoSubTitle>
+                                Special dishes contains:<span style="color: red"> chicken, beef , duck, char
+                                    siu(pork) and king prawn</span>.
+                            </p>
+                        </div>
+                        <div class="panel-heading allergyTitle">
+                            <p class="allergyInfo">
+                                Please let us know if you are allergy to one of the allergens:
+                            </p>
+                            <p class="allergySubInfo">
+                                Cereals, Crustaceans, Eggs, Fish, Peanuts, Soybeans, Milk
+                            </p>
+                            <p class="allergySubInfo">
+                                Nuts, Celery, Mustard, Sesame seeds,
+                                Sulphur Dioxide, Lupin and Molluscs.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="selectionLists" class="panel panel-selection-style">
+                        <div class="panel-heading">
+                            <div id="firstSelection" class="row">
+                                <div class="col-lg-2">
+                                    <a href="#Starters" class="selectionFont selectionLinkBody">Starters 小菜</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#Soups" class="selectionFont">Soups 汤</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#FriedRice" class="selectionFont">Fried Rice 饭類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#Chowmein" class="selectionFont">Chow Mein 面類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#ChineseVegetableDish" class="selectionFont">Chinese Vegetables
+                                        各式菜類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#SetMeal" class="selectionFont">Set Meal 套餐</a>
+                                </div>
                             </div>
-                        </div>-->
-                        <div id="Info" class="panel panel-info-style">
-                            <div class="panel-heading">
-                                <p class="InfoTitle">
-                                    For your info:
-                                </p>
-                                <p class="InfoSubTitle">
-                                    Dish + Rice is £6.00, more than £6.00 stay the same.
-                                </p>
-                                <p class=InfoSubTitle>
-                                    Both Dish + Rice will be placed in the same container.
-                                </p>
-                                <p class=InfoSubTitle>
-                                    Special dishes contains:<span style="color: red"> chicken, beef , duck, char
-                                        siu(pork) and king prawn</span>.
-                                </p>
+                            <hr />
+                            <div id="secondSelection" class="row">
+                                <div class="col-lg-2">
+                                    <a href="#vegetarianDish" class="selectionFont">Vegetarian Dishes 素菜類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#SweetAndSourCantonese" class="selectionFont">Sweet & Sour Cantonese Style
+                                        酸甜類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#SweetAndSourBalls" class="selectionFont">Sweet & Sour Balls 酸甜類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#SpareRibs" class="selectionFont">Spare Ribs 排骨類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#CurryDish" class="selectionFont">Curry Dishes 咖喱類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#SatayDish" class="selectionFont">Satay Dishes 沙爹類</a>
+                                </div>
                             </div>
-                            <div class="panel-heading allergyTitle">
-                                <p class="allergyInfo">
-                                    Please let us know if you are allergy to one of the allergens:
-                                </p>
-                                <p class="allergySubInfo">
-                                    Cereals, Crustaceans, Eggs, Fish, Peanuts, Soybeans, Milk
-                                </p>
-                                <p class="allergySubInfo">
-                                    Nuts, Celery, Mustard, Sesame seeds,
-                                    Sulphur Dioxide, Lupin and Molluscs.
-                                </p>
+                            <hr />
+                            <div id="thirdSelection" class="row">
+                                <div class="col-lg-2">
+                                    <a href="#KungPoDish" class="selectionFont">Kung Po Dishes 宮保類(英式)</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#CapitalDish" class="selectionFont">Capital Sauce Dishes 京汁類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#EggFooYungDish" class="selectionFont">Egg Foo Yung Dishes 芙蓉類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#OmeletteDish" class="selectionFont">Omelette Dishes 煎蛋類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#Duckling" class="selectionFont">Duckling Dishes 鸭肉類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#KprawnDish" class="selectionFont">King Prawn Dishes 大蝦類</a>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div id="fourthSelection" class="row">
+                                <div class="col-lg-2">
+                                    <a href="#BeefDish" class="selectionFont">Beef Dishes 牛類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#ChickenDish" class="selectionFont">Chicken Dishes 雞類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#PorkDish" class="selectionFont">Pork Dishes 叉烧類</a>
+                                </div>
+                                <div class="col-lg-2">
+                                    <a href="#ExtraPortionDish" class="selectionFont">Extra Portions</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -552,7 +626,7 @@
                             </table>
                         </div>
                     </div>
-                    <div id="KungPoDish" class="panel panel-menu-style">
+                    <div id="CapitalDish" class="panel panel-menu-style">
                         <div class="panel-heading">
                             <p class="SubMenuTitle">
                                 {{ $headDishes->where('id','=','19')->first()->Dish_Name }}

@@ -75,6 +75,8 @@
   border-color: black;
 }
 
+
+
 #vegetarianDish {
   border-color: green;
   border-width: 2px;
@@ -100,6 +102,16 @@
   color: black;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
+}
+
+.selectionFont
+{
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
 }
 
 .orderNumberLabel {
@@ -213,3 +225,9 @@
 .starterSecondHeading {
   width: 30%;
 }
+
+.selectionLinkWidth
+{
+  width:9%;
+}
+
