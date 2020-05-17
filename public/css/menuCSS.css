@@ -1,197 +1,215 @@
-
-.InfoTitle
-{
-  color : black;
+.InfoTitle {
+  color: black;
   margin-top: 5px;
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.InfoSubTitle
-{
-  color : black;
+.InfoSubTitle {
+  color: black;
   margin-top: 5px;
   margin-bottom: 0px;
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.panel-info-style
-{
+.panel-info-style {
   border-color: transparent;
 }
 
-
-.panel-info-style > .panel-heading
-{
-  background:#fcf6bd;
-  color:whitesmoke;
+.panel-info-style > .panel-heading {
+  background: #fcf6bd;
+  color: whitesmoke;
 }
 
-.allergyTitle
-{
+.allergyTitle {
   color: red;
 }
 
-.allergyInfo
-{
-  color : black;
+.allergyInfo {
+  color: black;
   margin-top: 5px;
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.allergySubInfo
-{
-  color : red;
+.allergySubInfo {
+  color: red;
   margin-top: 5px;
   margin-bottom: 0px;
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.panel-closing-style > .panel-heading
-{
+.panel-closing-style > .panel-heading {
   background: #cc3300;
 }
 
-.panel-closing-style
-{
+.panel-closing-style {
   border-color: transparent;
 }
 
-.closeNoticeText
-{
-  color : whitesmoke;
+.closeNoticeText {
+  color: whitesmoke;
   margin-top: 2px;
   margin-bottom: 0px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.panel-menu-style
-{
-  border-color:transparent;
+.panel-menu-style {
+  border-color: transparent;
 }
 
-.panel-menu-style > .panel-heading
-{
-    background: #f2c776;
-    color: whitesmoke;
-    border-color: black;
+.panel-menu-style > .panel-heading {
+  background: #f2c776;
+  color: whitesmoke;
+  border-color: black;
 }
 
-#vegetarianDish
-{
+#vegetarianDish {
   border-color: green;
   border-width: 2px;
 }
 
-.SubMenuTitle
-{
-  color : black;
+.SubMenuTitle {
+  color: black;
   margin-top: 5px;
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.veganSymbol
-{
-  float:left;
+.veganSymbol {
+  float: left;
 }
 
-.SubMenuTitleHelpText
-{
+.SubMenuTitleHelpText {
   font-size: 12px;
   margin-top: 0;
   margin-bottom: 0;
-  color:black;
+  color: black;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.orderNumberLabel
-{
-  float:left;
-  font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  margin-left: 5px;
-  margin-bottom: 0px;
-}
-
-.foodNameLabel
-{
+.orderNumberLabel {
   float: left;
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   margin-left: 5px;
   margin-bottom: 0px;
 }
 
-.priceLabel
-{
+@media screen and (min-width: 721px) {
+  .firstTableHeading {
+    width: 90%;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+  .secondTableHeading {
+    width: 10%;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  .firstTableHeading {
+    width: 70%;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+  .secondTableHeading {
+    width: 30%;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+}
+
+
+.foodNameLabel {
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.priceLabel {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   float: right;
   margin-right: 20px;
   margin-bottom: 0px;
 }
 
-.hintNameLabel
-{
+.hintNameLabel {
   font-weight: bold;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: red;
   font-size: 10px;
-  margin-left:5px;
+  margin-left: 5px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.pepperLabel
-{
-  color:red;
+.pepperLabel {
+  color: red;
   margin-top: 3px;
   margin-bottom: 0px;
   font-size: 16px;
 }
 
-.seperateLine
-{
+.seperateLine {
   margin-top: 1px;
   margin-bottom: 1px;
 }
 
-.clearFloat
-{
+.clearFloat {
   clear: both;
 }
 
-#ExtraPortionDish
-{
+#ExtraPortionDish {
   border-color: goldenrod;
 }
 
-.panel-extraPortion-style > .panel-heading
-{
+.panel-extraPortion-style > .panel-heading {
   background-color: goldenrod;
 }
 
-.panel-extraPortion-style > .panel-body
-{
+.panel-extraPortion-style > .panel-body {
   background-color: #f2c776;
   opacity: 0.9;
+}
+
+.starterFirstHeading {
+  width: 70%;
+}
+
+.starterSecondHeading {
+  width: 30%;
 }
