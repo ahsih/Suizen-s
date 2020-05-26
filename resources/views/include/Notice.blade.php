@@ -6,6 +6,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">We are temporarily closed due to Covid-19</p>
+    <p class="NoticeText">We are reopening from Sat 30th May Every-day From 12pm to 3pm and 4pm to 9pm</p>
     <p class="NoticeText">Until Further notice</p>
 </div>
