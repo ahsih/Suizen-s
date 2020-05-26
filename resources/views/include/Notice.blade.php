@@ -7,4 +7,5 @@
 ?>
 <div class="container-fluid noticeBackgroundColor">
     <p class="NoticeText">We are reopening from Sat 30th May Every-day From 12pm to 3pm and 4pm to 9pm</p>
+    <p class="NoticeText">Check out our Google 'Suizen Noodle Bar' for our latest opening time, we are updating weekly</p>
 </div>
