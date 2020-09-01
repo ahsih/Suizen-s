@@ -2,9 +2,9 @@
 <html lang="{{ app()->getLocale() }}">
 
 <head>
-    <meta charset="utf-8" />
     <meta name="Suizen's Noodle Bar 广东楼伯明翰大学" />
     <meta name="google-site-verification" content="_V-arpPAUgr_mMGBkU85VklBJ1oG7qoNji1FI12DLaY" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- CSS -->
@@ -24,7 +24,6 @@
 
 <body>
     @include('include.navbar')
-    @include('include.Notice')
     <div id="Gallery">
         <div id="FoodSlideShow" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->
