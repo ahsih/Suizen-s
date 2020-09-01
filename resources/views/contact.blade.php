@@ -19,7 +19,6 @@
 
 <body>
     @include('include.navbar')
-    @include('include.Notice')
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-7 col-md-12 col-sm-12">
@@ -42,12 +41,12 @@
                 <p class="text-center normalText">Or Aldi car park (2.5 hours max stay)</p>
                 <br>
                 <p class="subTitle text-center">Opening Hours 营业时间</p>
-                <p class="text-center normalText">Monday:<span class="redColor">1pm -> 2:30pm, 4:30pm -> 9:30pm</span></p>
-                <p class="text-center normalText">Tuesday:<span class="redColor">1pm -> 2:30pm, 4:30pm -> 9:30pm</span></p>
-                <p class="text-center normalText">Wednesday: <span class="redColor">1pm -> 2:30pm, 4:30pm -> 9:30pm</span></p>
-                <p class="text-center normalText">Thursday: <span class="redColor">1pm -> 2:30pm, 4:30pm -> 9:30pm</span></p>
-                <p class="text-center normalText">Saturday: <span class="redColor">4:30pm -> 9:30pm</span></p>
-                <p class="text-center normalText">Sunday: <span class="redColor">4:30pm -> 9:30pm</span></p>
+                <p class="text-center normalText">Monday:<span class="redColor">1pm -> 2:00pm, 4:45pm -> 9:30pm</span></p>
+                <p class="text-center normalText">Tuesday:<span class="redColor">1pm -> 2:00pm, 4:45pm -> 9:30pm</span></p>
+                <p class="text-center normalText">Wednesday: <span class="redColor">1pm -> 2:00pm, 4:45pm -> 9:30pm</span></p>
+                <p class="text-center normalText">Thursday: <span class="redColor">1pm -> 2:00pm, 4:45pm -> 9:30pm</span></p>
+                <p class="text-center normalText">Saturday: <span class="redColor">4:45pm -> 9:30pm</span></p>
+                <p class="text-center normalText">Sunday: <span class="redColor">4:45pm -> 9:30pm</span></p>
                 <p class="text-center normalText">Open 7 days a week including bank holidays</p>
                 <p class="text-center normalText"><span class="redColor">Unforunately Delivery Service is not available at the moment</span> </p>
                 <!--<p class="text-center normalText"><span class="redColor">

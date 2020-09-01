@@ -19,7 +19,6 @@
 
 <body>
     @include('include.navbar')
-    @include('include.Notice')
     <div id="Menu">
         <div class="container-fluid">
             <div class="row">
