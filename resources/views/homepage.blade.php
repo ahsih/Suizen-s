@@ -24,6 +24,7 @@
 
 <body>
     @include('include.navbar')
+    @include('include.Notice')
     <div id="Gallery">
         <div id="FoodSlideShow" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->

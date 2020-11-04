@@ -21,6 +21,7 @@
 
 <body>
     @include('include.navbar')
+    @include('include.Notice')
     <div>
         <div class="container-fluid">
             <div class="row">

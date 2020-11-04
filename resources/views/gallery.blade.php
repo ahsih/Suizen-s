@@ -19,6 +19,7 @@
 
 <body>
     @include('include.navbar')
+    @include('include.Notice')
     <div class="container-fluid">
             <div class="row gallerySixLayout">
                     <div class="col-lg-3 col-md-3 col-sm-3">
