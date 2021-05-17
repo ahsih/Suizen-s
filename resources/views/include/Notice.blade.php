@@ -6,7 +6,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-</div>
-    <!--p class="NoticeText">Due to the national lockdown, our business is open for Monday till Saturday 5pm to 8:30pm</p>
-    <p class="NoticeText">Check out our Google 'Suizen Noodle Bar' for our latest opening time, we will be updating weekly</p>
+    <p class="NoticeText">Our business is open for Monday till Saturday 5pm to 8:30pm</p>
+    <p class="NoticeText">You can now eat in!!!</p>
 </div>
