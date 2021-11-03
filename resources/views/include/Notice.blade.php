@@ -6,6 +6,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">Our business is open for Monday till Saturday 5pm to 8:30pm</p>
-    <p class="NoticeText">You can now eat in!!!</p>
+    <p class="NoticeText">Our business is open from Monday till Saturday 11am to 2:30pm and 4:30pm to 10:00pm</p>
+    <p class="NoticeText">We Closed On Sunday</p>
 </div>
