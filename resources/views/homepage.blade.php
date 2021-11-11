@@ -127,7 +127,7 @@
     <div id="contactDetail" class="container-fluid">
         <div class="row backgroundRed">
             <div class="col-12">
-                <h2 class="text-center OpeningHourInfo">Open 7 days a week from 12pm to 3:30pm then 5pm to 10:30pm</h2>
+                <h2 class="text-center OpeningHourInfo">Open 7 days a week from 12pm to 2:30pm then 5pm to 10:30pm</h2>
                 <h2 class="text-center OpeningHourInfo">Unforunately, Delivery Service Is Unavailable For Now</h2>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
@@ -161,7 +161,7 @@
             <div class="freeDrinkBorder col-12">
                 <p>Free bottle of water for any order over £6!</p>
                 <p>Free prawn cracker for over £10.99!</p>
-                <p>任何餐超过6英镑的订单将获得Caprisun饮品或者矿泉水</p>
+                <p>任何餐超过6英镑的订单将获得矿泉水</p>
             </div>
         </div>
         <!--<div class="row">
