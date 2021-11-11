@@ -41,7 +41,7 @@
                                 src="{{URL('/Images/SlideOne/Traditional_Cantonese_Beef_Brisket.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Traditional Cantonese Beef Brisket 广式牛腩饭
                             </h5>
-                            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+                            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
                             <img class='img-responsive imageFit' src="{{URL('/Images/SlideOne/Cumin_Chili_Beef.png')}}">
@@ -60,13 +60,13 @@
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive imageFit" src="{{URL('/Images/SlideOne/Roast_Duck_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Roast Duck BBQ Rice 烧鸭饭（没骨）</h5>
-                            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+                            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
                             <img class='img-responsive soupImageFit'
                                 src="{{URL('/Images/SlideOne/Seaprised_Aubergine_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Seaprised Aubergine Rice 鱼香茄子饭</h5>
-                            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+                            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                                 src="{{URL('/Images/SlideTwo/Braised_Pork_With_Soya_Sauce_Rice.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Braised Pork With Soya Sauce With Rice 红烧肉饭
                             </h5>
-                            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+                            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class="col-lg-4 col-sm-4 col-md-4">
                             <img class="img-responsive imageFit" src="{{URL('/Images/SlideTwo/Sweet_Sour_Fish.png')}}">
@@ -103,7 +103,7 @@
                             <img class="img-responsive imageFit"
                                 src="{{URL('/Images/SlideTwo/CharSiu_Honey_Sauce.png')}}">
                             <h5 class="text-center textBlackFontForGallery">CharSiu Honey Sauce 蜜汁叉烧饭</h5>
-                            <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+                            <h6 class="text-center textBlackFontForGallery">£6.50</h6>
                         </div>
                         <div class='col-lg-4 col-sm-4 col-md-4'>
                             <img class='img-responsive soupImageFit' src="{{URL('/Images/SlideTwo/WaDaHor.png')}}">
@@ -149,7 +149,7 @@
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
                 <div class="deliveryService text-center">
-                    <h4>我们微信上线啦。。有送餐服务哦</h4>
+                    <h4>微信暂时关闭</h4>
                 </div>
             <img class="weChatImg" src="{{URL('/Images/HomepageImages/SuizenWeChat.JPG')}}"/>
             </div>
@@ -159,7 +159,7 @@
                 <p>We Accept WeChat Payment 接受微信支付！！！</p>
             </div>-->
             <div class="freeDrinkBorder col-12">
-                <p>Free tropical drinks or bottle of water for any order over £6!</p>
+                <p>Free bottle of water for any order over £6!</p>
                 <p>Free prawn cracker for over £10.99!</p>
                 <p>任何餐超过6英镑的订单将获得Caprisun饮品或者矿泉水</p>
             </div>
