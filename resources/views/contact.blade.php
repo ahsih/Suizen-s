@@ -48,7 +48,7 @@
                 <p class="text-center normalText">Thursday: <span class="redColor">11am -> 2:00pm, 4:45pm -> 9:30pm</span></p>
                 <p class="text-center normalText">Saturday: <span class="redColor">11am -> 2:00pm, 4:45pm -> 9:30pm</span></p>
                 <p class="text-center normalText">Sunday: <span class="redColor">11am -> 2:00pm, 4:45pm -> 9:30pm</span></p>
-                <p class="text-center normalText">Open 6 days a week including bank holidays</p>
+                <p class="text-center normalText">Open 7 days a week including bank holidays</p>
                 <p class="text-center normalText"><span class="redColor">Unforunately Delivery Service is not available at the moment</span> </p>
                 <!--<p class="text-center normalText"><span class="redColor">
                     Delivery Service 送餐服务 <span class="redColor">5pm -> 10:30pm</span></p>-->

@@ -6,5 +6,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">Our business is open from Monday till Sunday 11am to 2:30pm and 4:30pm to 10:00pm</p>
+    <p class="NoticeText">We will closed on Tuesday 16th November 2021. Sorry for any inconvenience </p>
 </div>
