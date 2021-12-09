@@ -127,7 +127,7 @@
     <div id="contactDetail" class="container-fluid">
         <div class="row backgroundRed">
             <div class="col-12">
-                <h2 class="text-center OpeningHourInfo">Open 7 days a week from 11pm to 2:30pm then 5pm to 10:30pm</h2>
+                <h2 class="text-center OpeningHourInfo">Open 7 days a week from 11:00-11:30am to 10pm</h2>
                 <h2 class="text-center OpeningHourInfo">Unforunately, Delivery Service Is Unavailable For Now</h2>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4">
