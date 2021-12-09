@@ -32,7 +32,7 @@
                                 For your info:
                             </p>
                             <p class="InfoSubTitle">
-                                Dish + Rice is £6.00, more than £6.00 stay the same.
+                                Dish + Rice is £6.50, more than £6.50 stay the same.
                             </p>
                             <p class=InfoSubTitle>
                                 Both Dish + Rice will be placed in the same container.
