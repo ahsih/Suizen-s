@@ -43,7 +43,7 @@
                                 <p class="firstSize"><span class="redColor symbolFontSize">②</span> A type of Style 风味
                                 </p>
                                 <p class="firstSize"><span class="redColor symbolFontSize">③</span> Choice of Rice/Noodles 饭或面</p>
-                                <p class="firstSize lastOption"> To create a combo meal <span class="redColor">(All in One
+                                <p class="firstSize lastOption"> To create a combo meal <span class="greenColor">(All in One
                                         Container)</span> 全部装在一个盒子</p>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                 @for($i=0;$i < 3;$i++)
                                 <p class="secondSize">{{ $sides[$i]->FoodName }} {{ $sides[$i]->ChinseName }}</p>
                                 @endfor
-                                <p class="secondSize priceAdding redColor">+50p</p> 
+                                <p class="secondSize priceAdding redColor">Noodle +50p</p> 
                                 @for($i=3;$i < count($sides);$i++)
                                 <p class="secondSize">{{ $sides[$i]->FoodName }} {{ $sides[$i]->ChinseName }}</p>
                                 @endfor

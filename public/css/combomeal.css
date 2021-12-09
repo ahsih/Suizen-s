@@ -14,23 +14,23 @@
 }
 
 .panel-title-style > .panel-heading {
-  background-color: #460a0a;
+  background-color: #F94144;
 }
 
 .panel-option-style > .panel-heading {
-  background-color: #509127;
+  background-color: #F3722C;
 }
 
 .panel-Meat-style > .panel-heading {
-  background-color: #a65d05;
+  background-color: #F8961E;
 }
 
 .panel-Style-style > .panel-heading {
-  background-color: #d4cb26;
+  background-color: #F9C74F;
 }
 
 .panel-Side-style > .panel-heading {
-  background-color: #593511;
+  background-color: #90BE6D;
 }
 
 .font-layout {
@@ -83,7 +83,7 @@
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  color: #ed3118;
+  color: #F94144;
   margin: 0px;
   margin-left: 20%;
 }
@@ -92,7 +92,7 @@
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
-  color: #ed3118;
+  color: #F94144;
   margin: 0px;
   margin-left: 25%;
 }
@@ -102,7 +102,7 @@
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
     font-size: 12px;
-    color: #ed3118;
+    color: #F94144;
     margin: 0px;
     margin-left: 10%;
   }
@@ -110,7 +110,7 @@
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
-    color: #ed3118;
+    color: #F94144;
     margin: 0px;
     margin-left: 10%;
   }
@@ -152,7 +152,11 @@
 }
 
 .redColor {
-  color: #ed3118;
+  color: #F94144;
+}
+
+.greenColor {
+  color: #277DA1;
 }
 
 .symbolFontSize {
