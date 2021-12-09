@@ -92,7 +92,7 @@
             <div class="col-lg-3 col-md-3 col-sm-3">
                 <img class="imageFit" src="{{URL('/Images/GalleryOne/Chilli_Salt_Ribs_rice.png')}}">
                 <h5 class="text-center textBlackFontForGallery">Chili & salt ribs wtih rice 椒盐排骨饭</h5>
-                <h6 class="text-center textBlackFontForGallery">£6.00</h6>
+                <h6 class="text-center textBlackFontForGallery">£6.50</h6>
             </div>
         </div>
         <div class="row galleryFiveLayout">
