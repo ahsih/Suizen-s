@@ -6,5 +6,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">Open Monday to Sunday 12pm to 9:45pm </p>
+    <p class="NoticeText">Open Monday to Saturday 11:30pm to 10pm </p>
 </div>
