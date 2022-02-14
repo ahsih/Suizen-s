@@ -7,5 +7,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText"> We will be closed From Friday 11st Feb to Sunday 13th Feb, sorry for any inconvenience </p>
+    <p class="NoticeText"> We will be closed on Tuesday 15th February 2022 PM, sorry for any inconvenience </p>
 </div>
