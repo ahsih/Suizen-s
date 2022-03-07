@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 07, 2022 at 11:14 PM
+-- Generation Time: Mar 07, 2022 at 11:24 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.9
 
@@ -45,25 +45,25 @@ CREATE TABLE IF NOT EXISTS `chef_specials` (
 --
 
 INSERT INTO `chef_specials` (`id`, `OrderNumber`, `FoodName`, `HelpText`, `Price`, `Recommended`, `HeadDishes_Id`) VALUES
-(1, '105', 'Traditional Cantonese Beef Brisket 广式牛腩 ', NULL, '6.50', 1, 23),
-(2, '105.1', 'Beef Brisket Noodle Soup 牛腩汤面 ', NULL, '6.50', 1, 23),
-(3, '105.2', 'Beef Brisket Curry 咖喱牛腩 ', NULL, '6.50', 0, 23),
-(4, '1207', 'Salt & Pepper Beef 椒盐牛', NULL, '6.50', 0, 23),
-(5, '1217', 'Sea-Spiced Aubergines 鱼香茄子 ', NULL, '6.50', 0, 23),
-(6, '1213', 'Wat Tan Hor 滑蛋河 ', NULL, '6.50', 0, 23),
+(1, '105', 'Traditional Cantonese Beef Brisket 广式牛腩 ', NULL, '6.80', 1, 23),
+(2, '105.1', 'Beef Brisket Noodle Soup 牛腩汤面 ', NULL, '6.80', 1, 23),
+(3, '105.2', 'Beef Brisket Curry 咖喱牛腩 ', NULL, '6.80', 0, 23),
+(4, '1207', 'Salt & Pepper Beef 椒盐牛', NULL, '6.80', 0, 23),
+(5, '1217', 'Sea-Spiced Aubergines 鱼香茄子 ', NULL, '6.80', 0, 23),
+(6, '1213', 'Wat Tan Hor 滑蛋河 ', NULL, '7.00', 0, 23),
 (7, '1214', 'Fukien Fried Rice 福州炒饭 ', NULL, '6.80', 1, 23),
-(8, '41a', 'XO Seafood Udon/Fried Rice 海鲜炒乌冬/炒饭 ', 'Fish cakes, Prawns & Crabmeat Cooked With XO sauce. Very tasty and a little bit spicy!!!', '6.50', 1, 23),
+(8, '41a', 'XO Seafood Udon/Fried Rice 海鲜炒乌冬/炒饭 ', 'Fish cakes, Prawns & Crabmeat Cooked With XO sauce. Very tasty and a little bit spicy!!!', '6.80', 1, 23),
 (9, '1209', 'Roast Duck Rice BBQ 烧鸭饭(中式烧汁)', 'Roast Duck Dip With BBQ Sauce On Top Of The Egg Fried Rice', '6.80', 1, 23),
-(10, '41f', 'Charsiu Rice BBQ 叉烧饭(中式烧汁) ', 'Char Siu Dip With BBQ Sauce On Top Of The Egg Fried Rice', '6.50', 0, 23),
-(11, '1227', 'MaPo Tofu 麻婆豆腐 ', 'Tofu Mixed With Minced Pork, Then Cooked With Spicy Sezchuan Sauce.', '6.00', 1, 23),
-(12, '161h', 'Minced Pork with Green Bean 猪肉炒四季豆(辣)', 'Green Beans Cooked With Minced Pork, Then Mixed With A Delicious Spicy Sauce. ', '6.50', 1, 23),
-(13, '1218', 'Sweet & Sour/Thai Style Fish 酸甜鱼', 'Battered Cod Fish Cooked With Sweet&Sour/Thai Style', '6.50', 0, 23),
-(14, '1051', 'Chili & Salt Fish 椒盐鱼 ', NULL, '6.50', 0, 23),
-(15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered Cod Fish Mixed With Tofu, Broccoli Then Cooked With Cantonese Oyster Sauce. Very Sweet and tasty!!! ', '6.50', 1, 23),
-(16, '1219', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear Or Pork Belly Cooked With Spicy Sauce & Then Mixed With Green Pepper & Onions. Very tasty If You Eat Pork!!!', '6.50', 1, 23),
-(17, '1221', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.50', 0, 23),
-(18, '1210', 'Cumin & Chili Beef 孜然牛肉', NULL, '6.50', 1, 23),
-(19, '41.2', 'Cumin & Chili Chicken 孜然鸡肉', NULL, '6.50', 1, 23);
+(10, '41f', 'Charsiu Rice BBQ 叉烧饭(中式烧汁) ', 'Char Siu Dip With BBQ Sauce On Top Of The Egg Fried Rice', '6.80', 0, 23),
+(11, '1227', 'MaPo Tofu 麻婆豆腐 ', 'Tofu Mixed With Minced Pork, Then Cooked With Spicy Sezchuan Sauce.', '6.80', 1, 23),
+(12, '161h', 'Minced Pork with Green Bean 猪肉炒四季豆(辣)', 'Green Beans Cooked With Minced Pork, Then Mixed With A Delicious Spicy Sauce. ', '6.80', 1, 23),
+(13, '1218', 'Sweet & Sour/Thai Style Fish 酸甜鱼', 'Battered Cod Fish Cooked With Sweet&Sour/Thai Style', '6.80', 0, 23),
+(14, '1051', 'Chili & Salt Fish 椒盐鱼 ', NULL, '6.80', 0, 23),
+(15, '1052', 'Braised Fish Tofu Rice 斑斓豆腐鱼 ', 'Battered Cod Fish Mixed With Tofu, Broccoli Then Cooked With Cantonese Oyster Sauce. Very Sweet and tasty!!! ', '6.80', 1, 23),
+(16, '1219', 'Five Spices Roast Pork Ear/Belly 五香猪耳/猪肚 ', 'Pork Ear Or Pork Belly Cooked With Spicy Sauce & Then Mixed With Green Pepper & Onions. Very tasty If You Eat Pork!!!', '6.80', 1, 23),
+(17, '1221', 'Zhai Cai Shredded Pork Soup Noodle 榨菜肉丝汤面 ', NULL, '6.80', 0, 23),
+(18, '1210', 'Cumin & Chili Beef 孜然牛肉', NULL, '6.80', 1, 23),
+(19, '41.2', 'Cumin & Chili Chicken 孜然鸡肉', NULL, '6.80', 1, 23);
 
 -- --------------------------------------------------------
 
