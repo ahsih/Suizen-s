@@ -7,6 +7,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText"> Price May Be Different to the menu </p>
+    <p class="NoticeText"> Sorry, Delivery Service Is No Longer Available.</p>
     <p class="NoticeText"> Zettle Card Machine Is Broken, cash only at the moment, sorry for any inconvenience.</p>
 </div>
