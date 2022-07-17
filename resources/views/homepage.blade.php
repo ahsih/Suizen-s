@@ -109,7 +109,7 @@
                         <div class='col-lg-4 col-sm-4 col-md-4'>
                             <img class='img-responsive soupImageFit' src="{{URL('/Images/SlideTwo/WaDaHor.png')}}">
                             <h5 class="text-center textBlackFontForGallery">Wat Tan Hor 滑旦河</h5>
-                            <h6 class="text-center textBlackFontForGallery">£7.00</h6>
+                            <h6 class="text-center textBlackFontForGallery">£7.50</h6>
                         </div>
                     </div>
                 </div>
