@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 03, 2022 at 04:26 PM
+-- Generation Time: Jul 17, 2022 at 11:41 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.9
 
@@ -140,7 +140,7 @@ CREATE TABLE IF NOT EXISTS `combo_meal__styles` (
   `HelpText` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `ChineseHelpText` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `combo_meal__styles`
@@ -154,7 +154,10 @@ INSERT INTO `combo_meal__styles` (`id`, `OrderNumber`, `FoodName`, `ChineseName`
 (5, '1054', 'BLACK BEAN SAUCE', '士椒味', 'Onions， Green Peppers and Carrots Cooked with Black Bean Sauce (Salty and a Hint of sweet)', NULL),
 (6, '1055', 'CANTONESE', '广式味', 'A Delicious Oyster Sauce (Sweet) mixed with Onions, Carrots, Baby Corn and Lettuce', NULL),
 (7, '1056', 'VIETNAMESE', '越南味', 'Garlic Fish Sauce mixed with Onions, Bamboo Shoots & Water Chestnuts, Green Peppers and Pineapples', NULL),
-(8, '1057', 'SOUP BASED STYLE', '汤面类', 'Plain and Mild Soup mixed with Broccoli, Lettuce and Onions', NULL);
+(8, '1057', 'SOUP BASED STYLE', '汤面类', 'Plain and Mild Soup mixed with Broccoli, Lettuce and Onions', NULL),
+(9, '1058', 'Capital (Peking)', '京汁', 'Rich, Fruity, Sweet & Spicy Sauce', NULL),
+(10, '1059', 'KungPo', '宫保', 'Hot & Sweet Sauce Mixed with Cashewnuts, Onions, Green Peppers and Pineapples', NULL),
+(11, '1060', 'Thai Style', '泰式酱', '', NULL);
 
 -- --------------------------------------------------------
 
