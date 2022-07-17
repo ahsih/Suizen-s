@@ -30,7 +30,7 @@
                 <div class="col-lg-7 col-sm-8 col-md-8">
                     <div id="header" class="panel panel-title-style">
                         <div class="panel-heading">
-                            <h4 class="Title">Combo Meals 套餐 £6.50</h4>
+                            <h4 class="Title">Combo Meals 套餐 £7.00</h4>
                         </div>
                     </div>
                     <div id="option" class="panel panel-option-style">
@@ -87,7 +87,7 @@
                                 @for($i=0;$i < 3;$i++)
                                 <p class="secondSize">{{ $sides[$i]->FoodName }} {{ $sides[$i]->ChinseName }}</p>
                                 @endfor
-                                <p class="secondSize priceAdding redColor">Noodle +50p</p> 
+                                <p class="secondSize priceAdding redColor">Noodle +30p</p> 
                                 @for($i=3;$i < count($sides);$i++)
                                 <p class="secondSize">{{ $sides[$i]->FoodName }} {{ $sides[$i]->ChinseName }}</p>
                                 @endfor

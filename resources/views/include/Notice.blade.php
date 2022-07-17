@@ -7,6 +7,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText"> We will be closed on Thursday 14th July 2022</p>
+    <p class="NoticeText">Price increase due to energy price spiked</p>
     <p class="NoticeText"> Temporary Accept Cash Only :)</p>
 </div>
