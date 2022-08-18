@@ -30,7 +30,7 @@ class MenuController extends Controller {
          'soups' => $Soups,
         );
                 
-        return response()->file('../public/Images/menu/2019_new_menu_edition.pdf');
+        return response()->file('../public/Images/menu/2022_new_menu_edition.pdf');
     }
 
 }
