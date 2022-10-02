@@ -7,6 +7,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">We will closed from Sunday 11/09/22 till Friday 16/09/22 - For Maintenance </p>
+    <p class="NoticeText">We will closed from Sunday 11/09/22 till Saturday 17/09/22 - For Maintenance </p>
     <p class="noticeText">Sorry for any inconvenience</p>
 </div>
