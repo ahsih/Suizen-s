@@ -18,3 +18,4 @@
     Route::get('/contact','ContactController@index');
     Route::get('/gallery','GalleryController@index');
     Route::get('/combo','ComboMealController@index');
+    Route::get('/welcome','WelcomeController@index');
