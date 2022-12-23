@@ -1,0 +1,31 @@
+body {
+    background: #f23a55;
+}
+
+
+.welcome-center {
+    margin-top: 50%;
+    text-align: center;
+}
+
+.welcome-label {
+    font-size: x-large;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.welcome-button {
+    background-color: #f23a55;
+    border-width: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.welcome-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
