@@ -7,6 +7,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">We will closed from 24th Dec to 28th Dec</p>
+    <p class="NoticeText">We will closed from 24th Dec to 29th Dec</p>
     <p class="NoticeText">Merry Christmas and Happy New Year</p>
 </div>
