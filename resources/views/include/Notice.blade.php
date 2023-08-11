@@ -8,5 +8,5 @@
 ?>
 <div class="container-fluid noticeBackgroundColor">
     <p class="NoticeText">Really Sorry But We Do Not Have Delivery Service</p>
-    <p class="NoticeText">We will closed from Thursday 20th July to Sunday 23th July 2023</p>
+    <p class="NoticeText">We will closed on Saturday 12th August 2023</p>
 </div>
