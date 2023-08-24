@@ -7,6 +7,6 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">Really Sorry But We Do Not Have Delivery Service</p>
-    <p class="NoticeText">We will closed on Saturday 12th August 2023</p>
+    <p class="NoticeText">Price Change in September due to Energy contract finish in Sep 2023</p>
+    <p class="NoticeText">>We are very sorry for any inconvenience</p>
 </div>

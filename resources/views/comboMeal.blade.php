@@ -30,7 +30,7 @@
                 <div class="col-lg-7 col-sm-8 col-md-8">
                     <div id="header" class="panel panel-title-style">
                         <div class="panel-heading">
-                            <h4 class="Title">Combo Meals 套餐 £7.00</h4>
+                            <h4 class="Title">Combo Meals 套餐 £7.80</h4>
                         </div>
                     </div>
                     <div id="option" class="panel panel-option-style">
