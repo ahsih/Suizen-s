@@ -146,7 +146,7 @@
                 <p>We Accept WeChat Payment 接受微信支付！！！</p>
             </div>-->
             <div class="freeDrinkBorder col-12">
-                <p>Free bottle of water for any order over £6!</p>
+                <p>Free bottle of water for any order over £8!</p>
                 <p>任何餐超过6英镑的订单将获得矿泉水</p>
             </div>
         </div>
