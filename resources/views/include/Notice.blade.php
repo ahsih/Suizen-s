@@ -6,8 +6,7 @@
  * Open Monday to Saturday 11:30pm to 10pm
  */
 ?>
-<!--
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">Price Change in September due to Energy contract finish in Sep 2023</p>
+    <p class="NoticeText">We will closed from 23rd March 2024 to 13th April</p>
     <p class="NoticeText">>We are very sorry for any inconvenience</p>
-</div>-->
+</div>
