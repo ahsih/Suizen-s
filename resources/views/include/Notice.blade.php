@@ -7,6 +7,4 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    <p class="NoticeText">We will be closed until 28th April 2025</p>
-    <p class="NoticeText">We are very sorry for any inconvenience</p>
 </div>
