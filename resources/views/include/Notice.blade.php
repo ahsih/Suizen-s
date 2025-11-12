@@ -7,4 +7,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
+    Sorry, we’ve stopped serving prawn crackers — but we’re now giving fortune cookies instead!
 </div>
