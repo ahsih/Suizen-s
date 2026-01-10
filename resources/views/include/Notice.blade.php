@@ -7,5 +7,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor">
-    Sorry, we’ve stopped serving prawn crackers — but we’re now giving fortune cookies instead!
+We will closed from 20th Feb to 07th Mar 2026, Sorry for the inconvenience.
 </div>
