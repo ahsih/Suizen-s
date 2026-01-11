@@ -6,6 +6,6 @@
  * Open Monday to Saturday 11:30pm to 10pm
  */
 ?>
-<div class="container-fluid noticeBackgroundColor">
+<div class="container-fluid noticeBackgroundColor NoticeText">
 We will closed from 20th Feb to 07th Mar 2026, Sorry for the inconvenience.
 </div>
