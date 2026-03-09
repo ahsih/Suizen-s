@@ -7,6 +7,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor NoticeText">
-    Sorry, we only take cash only.
-We will closed from 20th Feb to 07th Mar 2026, Sorry for the inconvenience.
+    Sorry , cash only
 </div>
