@@ -7,6 +7,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor NoticeText">
-    Sorry , cash only.
-    We will be closed from 13th April to 20th April. Sorry for any inconvenience caused.
+    Sorry , cash only. Sorry for any inconvenience caused.
 </div>
