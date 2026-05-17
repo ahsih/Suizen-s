@@ -141,15 +141,15 @@
                 <img class="weChatImg" src="{{URL('/Images/HomepageImages/SuizenWeChat.JPG')}}" />
             </div>
         </div>
-        <div class="text-center FreeDrinkInfo row">
-            <!--<div class="weChatInfo col-12">
+        <!--<div class="text-center FreeDrinkInfo row">
+            <div class="weChatInfo col-12">
                 <p>We Accept WeChat Payment 接受微信支付！！！</p>
-            </div>-->
+            </div>
             <div class="freeDrinkBorder col-12">
                 <p>Free bottle of water for any order over £8!</p>
                 <p>任何餐超过6英镑的订单将获得矿泉水</p>
             </div>
-        </div>
+        </div>-->
         <!--<div class="row">
             <div class="text-center deliveryInfo col">
                 <p>We also delivery to university accomodations and libaries, however you might need to pick it up from

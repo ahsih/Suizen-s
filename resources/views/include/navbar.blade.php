@@ -21,8 +21,6 @@
                         套餐</a></p>
                 <p class="paragraphInline" id="thirdNavBar"><a class="subNavBarParagraph"
                         href="{{ url('/menu') }}">Menu 餐牌</a></p>
-                <p class="paragraphInline" id="fourthNavBar"><a class="subNavBarParagraph"
-                        href="{{ url('/gallery') }}">Gallery 图片</a></p>
                 <p class="paragraphInline" id><a class="subNavBarParagraph" href="{{ url('/contact') }}">Contact Us
                         联系方式</a></p>
             </nav>
