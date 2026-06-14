@@ -7,5 +7,5 @@
  */
 ?>
 <div class="container-fluid noticeBackgroundColor NoticeText">
-    Sorry , cash only. Sorry for any inconvenience caused.
+    Cash only at the moment · 目前只收现金
 </div>

@@ -1,11 +1,12 @@
 .noticeBackgroundColor {
-  background-color: #ff0000;
+  background: #761611;
 }
 
 .NoticeText {
+  padding: 9px 16px;
   text-align: center;
-  font-size: 26px;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
-  color: whitesmoke;
+  color: #fff8eb;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0;
 }
