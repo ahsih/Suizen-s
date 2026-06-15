@@ -1,10 +1,9 @@
 <header id="TitleHeading" class="site-header">
     <div class="site-header-inner">
         <a class="brand-lockup" href="{{ url('/home') }}" aria-label="Suizen Noodle Bar home">
-            <span class="brand-mark">穗</span>
             <span>
                 <span class="titleNavBar">Suizen Noodle Bar</span>
-                <span class="secondTitleNavBar">穗珍面馆</span>
+                <span class="secondTitleNavBar">广东楼</span>
             </span>
         </a>
         <nav class="navBarMarginRight" aria-label="Main navigation">
