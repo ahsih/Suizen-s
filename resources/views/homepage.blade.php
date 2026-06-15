@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{asset('css/navbar.css')}}" />
     <link rel="stylesheet" href="{{asset('css/homeCSS.css')}}" />
     <link rel="stylesheet" href="{{asset('css/Notice.css')}}" />
-    <title>Suizen Noodle Bar | 穗珍面馆 Selly Oak</title>
+    <title>Suizen Noodle Bar | 广东楼 Selly Oak</title>
 </head>
 
 <body class="home-page">
@@ -23,9 +23,9 @@
             <div class="hero-content">
                 <p class="eyebrow">广东风味 · Selly Oak</p>
                 <h1>Suizen Noodle Bar</h1>
-                <p class="hero-chinese">穗珍面馆</p>
+                <p class="hero-chinese">广东楼</p>
                 <p class="hero-copy">
-                    Fresh wok-fired noodles, roast meats, fragrant rice bowls and Cantonese comfort food served on Bristol Road.
+                    Cantonese rice bowls and Chinese takeaway favourites. Serving students, families and regulars in Selly Oak, Birmingham.
                 </p>
                 <div class="hero-actions">
                     <a class="primary-button" href="{{ url('/menu') }}">View menu 菜单</a>
@@ -61,10 +61,10 @@
             </div>
             <div class="dish-grid">
                 <article class="dish-card">
-                    <img src="{{ asset('Images/SlideOne/FUKIEN_FRICE_RICE.png') }}" alt="Fukien fried rice" />
+                    <img src="{{ asset('Images/SlideOne/Roast_Duck_Rice.png') }}" alt="Fukien fried rice" />
                     <div>
-                        <h3>Fukien Fried Rice</h3>
-                        <p>福建炒饭</p>
+                        <h3>Roast Duck Rice</h3>
+                        <p>烤鸭饭</p>
                     </div>
                 </article>
                 <article class="dish-card">
