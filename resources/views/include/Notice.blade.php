@@ -8,5 +8,4 @@
 ?>
 <div class="container-fluid noticeBackgroundColor NoticeText">
     Cash only at the moment · 目前只收现金.
-    We will be closed from 13th July to 30th July for our summer break. · 我们将于7月13日至7月30日放暑假。
 </div>
